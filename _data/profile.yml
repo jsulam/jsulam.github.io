@@ -1,9 +1,11 @@
+baseurl: "/academic-homepage"
+
 primary_name: "Jeremias Sulam"
 secondary_name: ""
 navbar_name: "Jeremias Sulam"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: assets/images/badges/MIT_Social_circle.png  # Logo is optional
   name: Assistant Professor, Johns Hopkins University
 - name: William R. Brody Faculty Scholar
 
@@ -34,19 +36,19 @@ short_bio: >-
 # I am a recipient of the National Science Foundation’s Early CAREER Award and the Best Graduates award from the Argentinean Academy of Engineering. 
   # </p>
 
-portrait_url: /assets/images/photos/Sulam_profile.JPG
+portrait_url: assets/images/photos/Sulam_profile.JPG
 portrait_caption: #>-
    #Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
 - name: Technion - Israel Institute of Technology
-  logo: /assets/images/badges/technion_logo.png
+  logo: assets/images/badges/technion_logo.png
   position: >- 
     Department Computer Science <br/>
     Ph.D. Student
   date: 2013 - 2018
 - name: Universidad Nacional de Entre R\'ios
-  logo: /assets/images/badges/technion_logo.png
+  logo: assets/images/badges/technion_logo.png
   position: B.S. in Biomedical Engineering
   date: 2007 - 2013
 
