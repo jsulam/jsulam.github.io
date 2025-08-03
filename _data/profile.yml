@@ -24,19 +24,19 @@ short_bio: >-
   <p>
     As AI percolates diverse areas of society, new problems arise at the intersection of this powerful technology and different dimensions of social concern. As with any new tool, employing AI in sensitive domains must be approached with caution; first, to ensure that the fundamental and theoretical principles behind these methods are thoroughly understood, and second, to safeguard transparency, moral values, and adherence to regulatory constraints. Unfortunately, neither of these desiderata is quite satisfied today. 
   </p>
-  <p>
-My research lies at the intersection of the disciplines of computer science, applied mathematics, and the biomedical sciences, and I work on problems in machine learning (ML) and biomedical imaging. I focus on creating frameworks and algorithms that provide theoretical guarantees and practical tools for robust and interpretable ML, ensuring they are not only accurate but also reliable and explainable. In a nutshell, my research agenda is focused on i) analyzing state-the-art systems, typically given by deep learning models, to theoretically understand their capabilities, limitations, and vulnerabilities; ii) designing new methods to address limitations of off-the-shelf systems, chiefly on aspects of interpretability, robustness, and fairness; and iii) designing new methodology to address challenges in the biomedical sciences, from imaging problems in MRI and microscopy to prognosis analysis and prediction in computational cancer biology and antibody docking problems in protein folding problems.
-  </p>
-  <p>
-I am the William R. Brody Faculty Scholar and an Assistant Professor in the Biomedical Engineering Department at Johns Hopkins University, and hold secondary appointments in the Computer Science Department and the Department of Applied Mathematics and Statistics. I'm also a core faculty member with the Mathematical Institute for Data Science (MINDS), the Center for Imging Science (CIS), the Kavli Neuroscience Discovery Institute, and the Data Science and AI (DSAI) Institute. I received my Bioengineering degree from UNER (Argentina) in 2013, and my PhD in Computer Science from Technion in 2018 with Miki Elad. 
-  </p>
-  <p>
-I am a recipient of the National Science Foundation’s Early CAREER Award and the Best Graduates award from the Argentinean Academy of Engineering. 
-  </p>
+  # <p>
+# My research lies at the intersection of the disciplines of computer science, applied mathematics, and the biomedical sciences, and I work on problems in machine learning (ML) and biomedical imaging. I focus on creating frameworks and algorithms that provide theoretical guarantees and practical tools for robust and interpretable ML, ensuring they are not only accurate but also reliable and explainable. In a nutshell, my research agenda is focused on i) analyzing state-the-art systems, typically given by deep learning models, to theoretically understand their capabilities, limitations, and vulnerabilities; ii) designing new methods to address limitations of off-the-shelf systems, chiefly on aspects of interpretability, robustness, and fairness; and iii) designing new methodology to address challenges in the biomedical sciences, from imaging problems in MRI and microscopy to prognosis analysis and prediction in computational cancer biology and antibody docking problems in protein folding problems.
+  # </p>
+  # <p>
+# I am the William R. Brody Faculty Scholar and an Assistant Professor in the Biomedical Engineering Department at Johns Hopkins University, and hold secondary appointments in the Computer Science Department and the Department of Applied Mathematics and Statistics. I'm also a core faculty member with the Mathematical Institute for Data Science (MINDS), the Center for Imging Science (CIS), the Kavli Neuroscience Discovery Institute, and the Data Science and AI (DSAI) Institute. I received my Bioengineering degree from UNER (Argentina) in 2013, and my PhD in Computer Science from Technion in 2018 with Miki Elad. 
+  # </p>
+  # <p>
+# I am a recipient of the National Science Foundation’s Early CAREER Award and the Best Graduates award from the Argentinean Academy of Engineering. 
+  # </p>
 
 portrait_url: /assets/images/photos/Sulam_profile.JPG
-portrait_caption: >-
-  # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+portrait_caption: #>-
+   #Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
 - name: Technion - Israel Institute of Technology
