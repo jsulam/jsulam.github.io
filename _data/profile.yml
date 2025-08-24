@@ -4,7 +4,7 @@ navbar_name: "J. Sulam"
 
 positions:
 - logo: /assets/images/badges/JHU_logo.png  # Logo is optional
-  name: "<b>Assistant Professor<\b> and <b>William R. Brody Faculty Scholar<\b>, Biomedical Engineering, Johns Hopkins University"
+  name: "<b>Assistant Professor</b> and <b>William R. Brody Faculty Scholar</b>, Biomedical Engineering, Johns Hopkins University"
 # - name: Position 2 without logo
 
 email:
