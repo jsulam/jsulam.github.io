@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 400;
 }
 
+.text-profile-bio {
+  margin-bottom: 1rem;   /* increase to taste: 1rem ≈ 16px */
+}
+
 .navbar {
     opacity: 0.95;
 }
