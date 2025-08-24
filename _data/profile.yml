@@ -4,7 +4,7 @@ navbar_name: "J. Sulam"
 
 positions:
 - logo: /assets/images/badges/JHU_logo.png  # Logo is optional
-  name: "<b>Assistant Professor</b> and <b>William R. Brody Faculty Scholar</b>, Biomedical Engineering, Johns Hopkins University"
+  name: "<b>Assistant Professor</b> and <b>William R. Brody Faculty Scholar</b>, Johns Hopkins University"
 # - name: Position 2 without logo
 
 email:
@@ -22,7 +22,7 @@ twitter: Jere_je_je  # Do not include the '@' symbol
 
 short_bio_text_justify: true
 short_bio: >-
-  I am the **William R. Brody Faculty Scholar** and an **Assistant Professor** in [Biomedical Engineering](https://bme.jhu.edu) at Johns Hopkins University, with secondary appointments in [Computer Science](https://www.cs.jhu.edu) and [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/). I am also a core member of [MINDS](https://www.minds.jhu.edu), [CIS](https://cis.jhu.edu), the [Kavli Neuroscience Discovery Institute](https://kavlijhu.org), and the [Data Science and AI Institute](https://ai.jhu.edu).
+  I am the William R. Brody Faculty Scholar and an Assistant Professor in [Biomedical Engineering](https://bme.jhu.edu) at Johns Hopkins University, with secondary appointments in [Computer Science](https://www.cs.jhu.edu) and [Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/). I am also a core member of [MINDS](https://www.minds.jhu.edu), [CIS](https://cis.jhu.edu), the [Kavli Neuroscience Discovery Institute](https://kavlijhu.org), and the [Data Science and AI Institute](https://ai.jhu.edu).
     
   My research bridges computer science, applied mathematics, and biomedical sciences. I develop **theory-grounded and interpretable machine learning methods** with applications in inverse problems, radiology and biomedical imaging, and biomarker discovery.
     
@@ -36,8 +36,7 @@ education:
 - name: Technion
   logo: /assets/images/badges/Technion-logo.png
   position: >- 
-    Department of Computer Science <br/>
-    Ph.D.
+    "<span>Department of Computer Science, Ph.D., <br> Advisor <a href=\"https://elad.cs.technion.ac.il\">Miki Elad</a></span>"
   date: 2013 - 2018
 - name: Universidad Nacional de Entre Rios
   logo: /assets/images/badges/uner_logo.png
