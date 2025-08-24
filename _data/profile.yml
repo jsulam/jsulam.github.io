@@ -4,7 +4,7 @@ navbar_name: "J. Sulam"
 
 positions:
 - logo: /assets/images/badges/JHU_logo.png  # Logo is optional
-  name: Position 1 with logo
+  name: "Assistant Professor<br>Biomedical Engineering<br>Johns Hopkins University"
 - name: Position 2 without logo
 
 
