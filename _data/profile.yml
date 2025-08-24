@@ -10,7 +10,7 @@ positions:
 email:
   display: "jsulam-1-at-jhu-dot-edu"
   link: "jsulam1@jhu.edu"
-# cv_link: link-to-your-cv-file
+cv_link: https://drive.google.com/file/d/17NDguVr-ucHyp3Ua4wrRoG2liDTHp8nB/view?usp=share_link
 gscholar: 1awx1aIAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
 github: jsulam
 twitter: Jere_je_je  # Do not include the '@' symbol
@@ -26,7 +26,7 @@ short_bio: >-
     
   My research bridges computer science, applied mathematics, and biomedical sciences. I develop **theory-grounded and interpretable machine learning methods** with applications in inverse problems, radiology and biomedical imaging, and biomarker discovery.
 portrait_url: /assets/images/photos/Sulam_profile.JPG
-portrait_caption: >-
+# portrait_caption: >-
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
