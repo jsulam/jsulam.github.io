@@ -20,7 +20,7 @@ twitter: Jere_je_je  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>As AI percolates diverse areas of society, new problems arise at the intersection of this powerful technology and different dimensions of social concern. As with any new tool, employing AI in sensitive domains must be approached with caution; first, to ensure that the fundamental and theoretical principles behind these methods are thoroughly understood, and second, to safeguard transparency, moral values, and adherence to regulatory constraints.</p>
   <p>Unfortunately, neither of these desiderata is quite satisfied today.</p>
