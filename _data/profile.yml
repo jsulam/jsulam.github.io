@@ -26,7 +26,7 @@ short_bio: >-
     
   My research bridges computer science, applied mathematics, and biomedical sciences. I develop **theory-grounded and interpretable machine learning methods** with applications in inverse problems, radiology and biomedical imaging, and biomarker discovery.
     
-  I received my PhD in Computer Science from Technion (2018, advised by [Miki Elad](https://elad.cs.technion.ac.il)) and my Bioengineering degree from UNER (Argentina, 2013). I am a recipient of the **NSF CAREER Award** and the **Best Graduates** award from the Argentinean National Academy of Engineering.
+  # I received my PhD in Computer Science from Technion (2018, advised by [Miki Elad](https://elad.cs.technion.ac.il)) and my Bioengineering degree from UNER (Argentina, 2013). I am a recipient of the **NSF CAREER Award** and the **Best Graduates** award from the Argentinean National Academy of Engineering.
 
 portrait_url: /assets/images/photos/Sulam_profile.JPG
 portrait_caption: >-
@@ -50,9 +50,9 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
+- name: William R. Brody Faculty Scholar
+  date: 2025
+- name: NSF Career Award
+  date: 2023
+- name: Best Graduates award, Argentinean National Academy of Engineering
   date: 2021
