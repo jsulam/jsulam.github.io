@@ -36,7 +36,7 @@ education:
 - name: Technion
   logo: /assets/images/badges/Technion-logo.png
   position: >- 
-    "<span>Department of Computer Science, Ph.D., <br> Advisor <a href=\"https://elad.cs.technion.ac.il\">Miki Elad</a></span>"
+    <span>Department of Computer Science, Ph.D., <br> Advisor <a href=\"https://elad.cs.technion.ac.il\">Miki Elad</a></span>
   date: 2013 - 2018
 - name: Universidad Nacional de Entre Rios
   logo: /assets/images/badges/uner_logo.png
