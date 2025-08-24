@@ -30,25 +30,25 @@ short_bio: >-
 
   In a nutshell, my research agenda is focused on (i) analyzing state-of-the-art systems, typically given by deep learning models, to theoretically understand their capabilities, limitations, and vulnerabilities; (ii) designing new methods to address limitations of off-the-shelf systems, chiefly on aspects of interpretability, robustness, and fairness; and (iii) designing new methodology to address challenges in the biomedical sciences, from imaging problems in MRI and microscopy to prognosis analysis and prediction in computational cancer biology and antibody docking problems in protein folding problems.
 
-  I am the William R. Brody Faculty Scholar and an Assistant Professor in the [Biomedical Engineering Department](https://bme.jhu.edu) at Johns Hopkins University, and hold secondary appointments in the [Computer Science Department](https://www.cs.jhu.edu) and the [Department of Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/). I'm also a core faculty member with the [Mathematical Institute for Data Science (MINDS)](https://www.minds.jhu.edu), the [Center for Imaging Science (CIS)](https://cis.jhu.edu), the [Kavli Neuroscience Discovery Institute](https://kavlijhu.org), and the [Data Science and AI (DSAI) Institute](https://ai.jhu.edu). I received my Bioengineering degree from UNER (Argentina) in 2013, and my PhD in Computer Science from Technion in 2018 with [Miki Elad](https://elad.cs.technion.ac.il).
+  I am the *William R. Brody Faculty Scholar* and an *Assistant Professor* in the [Biomedical Engineering Department](https://bme.jhu.edu) at Johns Hopkins University, and hold secondary appointments in the [Computer Science Department](https://www.cs.jhu.edu) and the [Department of Applied Mathematics and Statistics](https://engineering.jhu.edu/ams/). I'm also a core faculty member with the [Mathematical Institute for Data Science (MINDS)](https://www.minds.jhu.edu), the [Center for Imaging Science (CIS)](https://cis.jhu.edu), the [Kavli Neuroscience Discovery Institute](https://kavlijhu.org), and the [Data Science and AI (DSAI) Institute](https://ai.jhu.edu). I received my Bioengineering degree from UNER (Argentina) in 2013, and my PhD in Computer Science from Technion in 2018 with [Miki Elad](https://elad.cs.technion.ac.il).
 
-  I am a recipient of the National Science Foundation’s Early CAREER Award and the Best Graduates award from the Argentinean Academy of Engineering.
+  I am a recipient of the *National Science Foundation’s Early CAREER Award* and the *Best Graduates* award from the Argentinean National Academy of Engineering.
 
 portrait_url: /assets/images/photos/Sulam_profile.JPG
 portrait_caption: >-
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
+- name: Technion
   logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
+    Department of Computer Science <br/>
+    Ph.D.
+  date: 2013 - 2018
+- name: Universidad Nacional de Entre Rios
   logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  position: B.S. in Bioengineering
+  date: 2007 - 2013
 
 # experience:
 # - name: Peking University
