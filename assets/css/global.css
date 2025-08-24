@@ -95,7 +95,9 @@ div.lazy {
 }
 
 .profile-logo {
-    height: 30px !important;  /* adjust as needed */
-  width: auto !important;
+    height: 30px;   /* adjust this value as needed */
+    width: auto;    /* keep proportions */
+    margin-right: 8px;  /* optional spacing between logo and text */
+    vertical-align: middle; /* keeps logo aligned with text */
 }
 
