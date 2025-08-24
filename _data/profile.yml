@@ -8,7 +8,9 @@ positions:
 - name: Position 2 without logo
 
 
-email: "jsulam-1-at-jhu-dot-edu"
+email:
+  display: "jsulam-1-at-jhu-dot-edu"
+  link: "jsulam1@jhu.edu"
 # cv_link: link-to-your-cv-file
 gscholar: 1awx1aIAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
 github: jsulam
