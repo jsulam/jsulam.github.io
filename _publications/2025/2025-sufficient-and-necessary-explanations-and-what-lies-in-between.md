@@ -1,8 +1,8 @@
 ---
 title:          "Sufficient and Necessary Explanations (and What Lies in Between)."
 date:           2025-01-01
-selected:       true
-pub:            "Second Conferenceon Parsimony and Learning(CPAL 2025)."
+selected:       false
+pub:            "Second Conferenceon Parsimony and Learning (CPAL 2025)."
 pub_date:       "2025"
 authors:
   - Bharti, Bharti
