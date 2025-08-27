@@ -6,9 +6,9 @@ pub:            "ICLR"
 pub_date:       "2024"
 cover: /assets/images/papers/LPN.png
 authors:
-  - Fang, Z.
-  - Buchanan, S.
-  - Sulam, Jeremias
+  - Zhenghan Fang
+  - Sam Buchanan
+  - Jeremias Sulam
 links:
   Paper: https://openreview.net/forum?id=Eo6qUj2m3V
 ---
