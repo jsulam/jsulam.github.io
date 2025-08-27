@@ -9,5 +9,5 @@ authors:
   - Yi, Paul H.
   - Sulam, Jeremias
 links:
-  Paper: [https://arxiv.org/abs/2504.13861](https://openreview.net/pdf?id=H43BmpeJII)
+  Paper: https://openreview.net/pdf?id=H43BmpeJII
 ---
