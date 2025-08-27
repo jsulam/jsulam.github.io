@@ -4,6 +4,7 @@ date:           2024-01-01
 selected:       true
 pub:            "ICLR"
 pub_date:       "2024"
+cover: /assets/images/papers/LPN.png
 authors:
   - Fang, Z.
   - Buchanan, S.
