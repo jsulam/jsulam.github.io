@@ -2,7 +2,7 @@
 title:          "Aligning Explanations with Human Communication"
 date:           2025-05-01
 selected:       false
-pub:            arXiv
+pub:            "arXiv"
 pub_date:       "2025"
 cover:          /assets/images/papers/pragmatix.png
 authors:
