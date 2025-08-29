@@ -1,7 +1,7 @@
 ---
 title:          "Adversarial Examples Might be Avoidable: The Role of Data Concentration in Adversarial Robustness"
 date:           2023-01-01
-selected:       true
+selected:       false
 pub:            "NeurIPS"
 pub_date:       "2023"
 authors:
