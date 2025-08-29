@@ -10,4 +10,5 @@ authors:
   - Jeremias Sulam
 links:
   Paper: https://openreview.net/pdf?id=17Ld3davzF
+cover:          /assets/images/papers/certified_robustness.png
 ---
