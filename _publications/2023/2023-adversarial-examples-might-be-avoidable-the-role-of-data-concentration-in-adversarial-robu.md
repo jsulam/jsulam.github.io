@@ -5,7 +5,7 @@ selected:       true
 pub:            "NeurIPS"
 pub_date:       "2023"
 authors:
-  - Pal, Anirbit
+  - Pal, Ambar
   - Sulam, Jeremias
   - Vidal, Rene
 links:
