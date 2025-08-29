@@ -5,8 +5,9 @@ selected:       false
 pub:            "Transactions of Machine Learning Research (TMLR)"
 pub_date:       "2023"
 authors:
-  - Pal, Ambar
-  - Sulam, Jeremias
+  - Ambar Pal
+  - Jeremias Sulam
 links:
   Paper: https://openreview.net/pdf?id=fvyh6mDWFr
+cover:        /assets/images/papers/understanding_noise_pal.png
 ---
