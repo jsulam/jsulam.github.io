@@ -4,6 +4,7 @@ date:           2023-01-01
 selected:       true
 pub:            "Nature Methods"
 pub_date:       "2023"
+cover:          /assets/images/papers/XTC.png
 authors:
   - Xu, Y. K. T.
   - Graves, A.R.
@@ -13,5 +14,5 @@ authors:
   - Charles, A. S.
   - Sulam, Jeremias
 links:
-  Paper: https://www.nature.com/articles/s41592-023-01939-w
+  Paper: https://www.nature.com/articles/s41592-023-01871-6#Sec2
 ---
