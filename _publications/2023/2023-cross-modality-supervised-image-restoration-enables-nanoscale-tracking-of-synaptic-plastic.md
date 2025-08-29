@@ -15,4 +15,5 @@ authors:
   - Sulam, Jeremias
 links:
   Paper: https://www.nature.com/articles/s41592-023-01871-6#Sec2
+  Code: https://github.com/yxu233/Xu_and_Graves_XTC_syn_tracking
 ---
