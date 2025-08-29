@@ -1,15 +1,15 @@
 ---
 title:          "WaveSep: A Flexible Wavelet-Based Approach for Source Separation in Susceptibility Imaging"
 date:           2023-01-01
-selected:       true
+selected:       false
 pub:            "MLCN (MICCAI Workshop)"
 pub_date:       "2023"
 authors:
-  - Fang, Z.
-  - Shin, H. G.
+  - Fang, Zhenghan
+  - Shin, Hyeong-Geol
   - van Zijl, Peter
-  - Li, Xin
+  - Li, Xu
   - Sulam, Jeremias
 links:
-  Paper: https://scholar.google.com/scholar?cluster=13006244257505100315
+  Paper: https://link.springer.com/chapter/10.1007/978-3-031-44858-4_6
 ---
