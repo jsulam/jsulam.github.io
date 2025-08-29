@@ -1,7 +1,7 @@
 ---
 title:          "Estimating and Controlling for Fairness via Sensitive Attribute Predictors"
 date:           2023-01-01
-selected:       true
+selected:       false
 pub:            "NeurIPS"
 pub_date:       "2023"
 authors:
