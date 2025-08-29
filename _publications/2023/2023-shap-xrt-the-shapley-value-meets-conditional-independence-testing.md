@@ -1,14 +1,14 @@
 ---
 title:          "SHAP-XRT: The Shapley Value Meets Conditional Independence Testing"
 date:           2023-01-01
-selected:       true
+selected:       false
 pub:            "Transactions of Machine Learning Research (TMLR)"
 pub_date:       "2023"
 authors:
   - Teneggi, Jacopo
-  - Bharti, Bhavya
+  - Bharti, Beepul
   - Romano, Yaniv
   - Sulam, Jeremias
 links:
-  Paper: https://openreview.net/forum?id=I7M6mfe2Xl
+  Paper: https://openreview.net/pdf?id=WFtTpQ47A7
 ---
