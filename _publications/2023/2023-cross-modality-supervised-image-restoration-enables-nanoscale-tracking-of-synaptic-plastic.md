@@ -6,13 +6,13 @@ pub:            "Nature Methods"
 pub_date:       "2023"
 cover:          /assets/images/papers/XTC.png
 authors:
-  - Xu, Y. K. T.
-  - Graves, A.R.
-  - Coste, G. I.
-  - Huganir, R. L.
-  - Bergles, D. E.
-  - Charles, A. S.
-  - Sulam, Jeremias
+  - Yu Kang T. Xu
+  - Austin R. Graves
+  - Gabrielle I. Coste
+  - Richard L. Huganir
+  - Dwight E. Bergles
+  - Adam S. Charles
+  - Jeremias Sulam
 links:
   Paper: https://www.nature.com/articles/s41592-023-01871-6#Sec2
   Code: https://github.com/yxu233/Xu_and_Graves_XTC_syn_tracking
