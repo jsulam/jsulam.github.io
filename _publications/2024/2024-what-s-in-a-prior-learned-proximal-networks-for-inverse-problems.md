@@ -10,5 +10,7 @@ authors:
   - Sam Buchanan
   - Jeremias Sulam
 links:
-  Paper: https://openreview.net/forum?id=Eo6qUj2m3V
+  Paper: https://arxiv.org/pdf/2310.14344
+  Site: https://zhenghanfang.github.io/learned-proximal-networks/
+  Code: https://github.com/ZhenghanFang/learned-proximal-networks
 ---
