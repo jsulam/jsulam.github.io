@@ -5,9 +5,9 @@ selected:       false
 pub:            "Transactions on Machine Learning Research (TMLR)"
 pub_date:       "2024"
 authors:
-  - Pal, Anirbit
-  - Vidal, Rene
-  - Sulam, Jeremias
+  - Ambar Pal
+  - Rene Vidal
+  - Jeremias Sulam
 links:
   Paper: https://openreview.net/pdf?id=17Ld3davzF
 ---
