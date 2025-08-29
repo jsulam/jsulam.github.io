@@ -14,8 +14,9 @@ cover: https://www.cell.com/cms/asset/atypon:cms:attachment:img:d466e6:rev:17436
 authors:
   - Zhenzhen Wang
   - Cesar A. Santa-Maria
-  - ALeksander S. Popel
+  - Aleksander S. Popel
   - Jeremias Sulam
+
 links:
   Code: https://github.com/Sulam-Group/BiGraph4TME.git
   Paper: https://www.cell.com/patterns/fulltext/S2666-3899%2825%2900026-1
