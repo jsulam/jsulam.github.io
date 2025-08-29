@@ -4,10 +4,11 @@ date:           2023-01-01
 selected:       false
 pub:            "NeurIPS"
 pub_date:       "2023"
+cover:          /assets/images/papers/fairness_neurips.png
 authors:
-  - Bharti, Beepul
-  - Yi, Paul H.
-  - Sulam, Jeremias
+  - Beepul Bharti
+  - Paul H. Yi
+  - Jeremias Sulam
 links:
   Paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/752820c79b4ebb72809014bdfdedd603-Paper-Conference.pdf
 ---
