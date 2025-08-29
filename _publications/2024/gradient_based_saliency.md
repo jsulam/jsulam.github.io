@@ -11,6 +11,5 @@ authors:
   - Jeremias Sulam
   - Paul H Yi
 links:
-  Paper: https://openreview.net/pdf?id=17Ld3davzF
-cover:          /assets/images/papers/certified_robustness.png
+  Paper: https://link.springer.com/article/10.1186/s13040-024-00370-4?fromPaywallRec=false
 ---
