@@ -1,7 +1,7 @@
 ---
 title:          "Cross-modality supervised image restoration enables nanoscale tracking of synaptic plasticity in living mice"
 date:           2023-01-01
-selected:       true
+selected:       false
 pub:            "Nature Methods"
 pub_date:       "2023"
 cover:          /assets/images/papers/XTC.png
