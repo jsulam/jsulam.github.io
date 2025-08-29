@@ -9,5 +9,5 @@ authors:
   - Sulam, Jeremias
   - Vidal, Rene
 links:
-  Paper: https://openreview.net/forum?id=9tQy9xX8u5
+  Paper: https://openreview.net/pdf?id=JDoA6admhv
 ---
