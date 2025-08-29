@@ -7,7 +7,6 @@ pub:            "arXiv"
 # pub_post:       'Under review.'
 pub_last:       
 pub_date:       "2025"
-cover: https://www.cell.com/cms/asset/atypon:cms:attachment:img:d466e6:rev:1743652751731-24379:pii:S2666389924X00070/cover.tif.jpg
 authors:
   - Zhenghan Fang
   - Mateo Diaz
