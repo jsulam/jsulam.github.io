@@ -6,11 +6,11 @@ pub:            "Medical Image Analysis"
 pub_date:       "2023"
 cover:          /assets/images/papers/STI.gif
 authors:
-  - Fang, Z.
-  - Lai, K. W.
-  - van Zijl, Peter
-  - Li, Xin
-  - Sulam, Jeremias
+  - Zhenghan Fang
+  - Kuo-Wei Lai
+  - Peter van Zijl
+  - Xu Li
+  - Jeremias Sulam
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S1361841523000890
   Code: https://github.com/ZhenghanFang/DeepSTI-pytorch
