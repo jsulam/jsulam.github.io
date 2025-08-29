@@ -5,8 +5,8 @@ selected:       false
 pub:            "SIAM Journal on Mathematics of Data Science"
 pub_date:       "2023"
 authors:
-  - Muthukumar, Ramchandran
-  - Sulam, Jeremias
+  - Ramchandran Muthukumar
+  - Jeremias Sulam
 links:
   Paper: https://epubs.siam.org/doi/full/10.1137/22M1478835
 ---
