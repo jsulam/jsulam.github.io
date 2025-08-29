@@ -6,9 +6,9 @@ pub:            "NeurIPS"
 pub_date:       "2023"
 cover:          /assets/images/papers/avoiding_adversarials.png
 authors:
-  - Pal, Ambar
-  - Sulam, Jeremias
-  - Vidal, Rene
+  - Ambar Pal
+  - Jeremias Sulam
+  - Rene Vidal
 links:
   Paper: https://openreview.net/pdf?id=JDoA6admhv
 ---
