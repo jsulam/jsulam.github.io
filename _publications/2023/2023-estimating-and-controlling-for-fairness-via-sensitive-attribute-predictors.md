@@ -5,9 +5,9 @@ selected:       true
 pub:            "NeurIPS"
 pub_date:       "2023"
 authors:
-  - Bharti, Bhavya
+  - Bharti, Beepul
   - Yi, Paul H.
   - Sulam, Jeremias
 links:
-  Paper: https://arxiv.org/abs/2310.01819
+  Paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/752820c79b4ebb72809014bdfdedd603-Paper-Conference.pdf
 ---
