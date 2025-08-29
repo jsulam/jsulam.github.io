@@ -4,6 +4,7 @@ date:           2023-01-01
 selected:       false
 pub:            "NeurIPS"
 pub_date:       "2023"
+cover:          /assets/images/papers/avoiding_adversarials.png
 authors:
   - Pal, Ambar
   - Sulam, Jeremias
