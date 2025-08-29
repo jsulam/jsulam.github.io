@@ -5,10 +5,10 @@ selected:       false
 pub:            "Transactions of Machine Learning Research (TMLR)"
 pub_date:       "2023"
 authors:
-  - Teneggi, Jacopo
-  - Bharti, Beepul
-  - Romano, Yaniv
-  - Sulam, Jeremias
+  - Jacopo Teneggi
+  - Beepul Bharti
+  - Yaniv Romano
+  - Jeremias Sulam
 links:
   Paper: https://openreview.net/pdf?id=WFtTpQ47A7
 ---
