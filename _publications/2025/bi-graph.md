@@ -21,5 +21,10 @@ links:
   Code: https://github.com/Sulam-Group/BiGraph4TME.git
   Paper: https://www.cell.com/patterns/fulltext/S2666-3899%2825%2900026-1
   Press: https://hub.jhu.edu/2025/07/16/breast-cancer-microenvironments/
-  # Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  
+
+topics: 
+  - Digital Pathology
+  - Biomarker Discovery
+  - Interpretability
 ---
