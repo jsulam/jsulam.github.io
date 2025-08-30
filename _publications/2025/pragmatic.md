@@ -13,4 +13,6 @@ authors:
   - Jeremias Sulam
 links:
   Paper: https://arxiv.org/pdf/2505.15626?
+topics:
+  - ML Interpretability
 ---
