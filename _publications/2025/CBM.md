@@ -12,5 +12,5 @@ authors:
 links:
   Paper: https://openreview.net/pdf?id=ii2zoKgRJV
 topics:
-  - Interpretability
+  - ML Interpretability
 ---
