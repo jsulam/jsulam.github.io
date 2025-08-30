@@ -14,4 +14,7 @@ authors:
   - Jeremias Sulam
 links:
   Paper: https://arxiv.org/pdf/2507.08956
+topics:
+  - Diffusion
+  - Theory
 ---
