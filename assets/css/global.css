@@ -99,3 +99,11 @@ div.lazy {
     width: auto !important;
 }
 
+.badge { border: 1px solid #ddd; background: #f8f9fa; } /* optional base */
+
+.topic-interpretability { background: #e0f7fa; color: #006064; }
+.topic-theory          { background: #f3e5f5; color: #4a148c; }
+.topic-bioimaging         { background: #e8f5e9; color: #1b5e20; }
+.topic-trustworthiness         { background: #fff3e0; color: #e65100; }
+/* add more as needed */
+
