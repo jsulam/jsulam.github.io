@@ -10,4 +10,7 @@ authors:
   - Yaniv Romano
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10572228
+topics:
+  - Sparse Coding
+  - Theory
 ---
