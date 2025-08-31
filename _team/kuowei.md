@@ -8,5 +8,5 @@ topics:
   - Inverse Problems
 graduated: true
 grad_year: 2020
-now_at: PhD students at Georgia Tech
+now_at: Georgia Tech, PhD students
 ---
