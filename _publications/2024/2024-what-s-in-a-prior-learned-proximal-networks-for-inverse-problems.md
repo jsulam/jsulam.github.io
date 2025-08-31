@@ -13,4 +13,8 @@ links:
   Paper: https://arxiv.org/pdf/2310.14344
   Site: https://zhenghanfang.github.io/learned-proximal-networks/
   Code: https://github.com/ZhenghanFang/learned-proximal-networks
+topics:
+  - Inverse Problems
+  - Theory
+  - Imaging
 ---
