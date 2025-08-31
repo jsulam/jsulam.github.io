@@ -12,4 +12,7 @@ authors:
   - Paul H Yi
 links:
   Paper: https://link.springer.com/article/10.1186/s13040-024-00370-4?fromPaywallRec=false
+topics:
+  - ML Interpretability
+  - Biomedical Imaging
 ---
