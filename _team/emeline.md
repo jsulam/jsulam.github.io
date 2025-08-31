@@ -1,7 +1,7 @@
 ---
 name: Emeline Haroldsen
 role: PhD Student (CS)
-image: https://lh5.googleusercontent.com/_PvgIuflRTxEGYD1a4i-54py06PlJXIsfHabbY6Jr0Gr5MCaBPUiChwjp_lxa1kTA-Qk7bMXuegz30VF3SYVhKl4kOL4XvBnumjLSTdV9LoKvtDE9PJn7wHAw7md9Jb-5OFbxsRYGpYXH9Ubl12_traeYDS79OVFRV5cz0XwIY7wyNVC9105ig=w1280
+image: https://media.licdn.com/dms/image/v2/D5603AQFO43y7OqR9hA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683079575751?e=2147483647&v=beta&t=tEVrlMRBMZKweexLYYcCqDQOfo5nZdDUy4QKO7JY-kk
 homepage: 
 topics:
   - Protein Folding
