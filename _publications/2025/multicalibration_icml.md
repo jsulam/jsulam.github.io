@@ -16,6 +16,6 @@ authors:
 links:
   Paper: https://openreview.net/pdf?id=sGny74zx2V
 topics:
-  - ML Trustworthyness
+  - ML Trustworthiness
   - Theory
 ---
