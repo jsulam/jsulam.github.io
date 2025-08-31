@@ -22,7 +22,7 @@ links:
   
 
 topics: 
-  - Digital Pathology
-  - Biomarker Discovery
   - ML Interpretability
+  - Biomarker Discovery
+  - Digital Pathology
 ---
