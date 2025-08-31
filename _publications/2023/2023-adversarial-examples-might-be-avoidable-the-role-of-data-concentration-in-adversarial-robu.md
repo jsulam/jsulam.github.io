@@ -11,4 +11,6 @@ authors:
   - Rene Vidal
 links:
   Paper: https://openreview.net/pdf?id=JDoA6admhv
+topics:
+  - ML Robustness
 ---
