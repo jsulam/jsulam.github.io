@@ -99,7 +99,8 @@ div.lazy {
     width: auto !important;
 }
 
-.badge { border: 1px solid #ddd; background: #f8f9fa; } /* optional base */
+.badge { border: 1px solid #ddd; /*background: #f8f9fa; */ } /* optional base */
+.badge[class*="topic-"] { border: 1px solid #ddd; }
 
 .topic-ml-interpretability   { background: #e0f7fa; color: #006064; }  /* teal */
 .topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
