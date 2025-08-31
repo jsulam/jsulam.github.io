@@ -105,15 +105,15 @@ div.lazy {
 .badge.topic-ml-interpretability   { background: #e0f7fa; color: #006064; }  /* teal */
 .badge.topic-inverse-problems       { background: #fce4ec; color: #880e4f; }  /* magenta */
 .badge.topic-protein-folding     { background: #e3f2fd; color: #0d47a1; }  /* blue */
-.topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
-.topic-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
-.topic-biomedical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
-.topic-digital-pathology   { background: #fff3e0; color: #e65100; }  /* orange */
-.topic-biomarker-discovery { background: #e8eaf6; color: #1a237e; }  /* soft indigo (example) */
-.topic-generative-ai  { background: #ede7f6; color: #311b92; }  /* deep indigo */
-.topic-diffusion-models          { background: #e3f2fd; color: #0d47a1; }  /* blue */
-.topic-ml-robustness          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
-.topic-ml-trustworthiness         { background: #f1f8e9; color: #33691e; }  /* dark green */
-.topic-ml-generalization       { background: #fce4ec; color: #880e4f; }  /* magenta */
+.badge.topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
+.badge.topic-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
+.badge.topic-biomedical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
+.badge.topic-digital-pathology   { background: #fff3e0; color: #e65100; }  /* orange */
+.badge.topic-biomarker-discovery { background: #e8eaf6; color: #1a237e; }  /* soft indigo (example) */
+.badge.topic-generative-ai  { background: #ede7f6; color: #311b92; }  /* deep indigo */
+.badge.topic-diffusion-models          { background: #e3f2fd; color: #0d47a1; }  /* blue */
+.badge.topic-ml-robustness          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
+.badge.topic-ml-trustworthiness         { background: #f1f8e9; color: #33691e; }  /* dark green */
+.badge.topic-ml-generalization       { background: #fce4ec; color: #880e4f; }  /* magenta */
 /* add more as needed */
 
