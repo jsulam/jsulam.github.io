@@ -51,6 +51,7 @@ navbar_title: Team
     <li class="mb-2">
       <strong>{{ alum.name }}</strong>
       {% if alum.grad_year %} — PhD {{ alum.grad_year }}{% endif %}
+      {% if alum.now_at %} <span class="text-muted">— Now at: {{ alum.now_at }}</span>{% endif %}
       {% if alum.homepage %}
         <a href="{{ alum.homepage }}" target="_blank" rel="noopener noreferrer">[Website]</a>
       {% endif %}
