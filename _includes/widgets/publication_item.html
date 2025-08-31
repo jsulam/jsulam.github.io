@@ -57,7 +57,9 @@
                     {%- assign topics = item.topics -%}
                     {%- unless topics.first -%}{% assign topics = item.topics | split: ',' %}{%- endunless -%}
                     {%- for t in topics -%}
-                      <span class="badge badge-light border mr-1">{{ t | strip }}</span>
+                      {%- assign t_label = t | strip -%}
+                      {%- assign t_class = t_label | downcase | replace: ' ', '-' -%}
+                      <span class="badge topic-{{ t_class }} mr-1">{{ t_label }}</span>
                     {%- endfor -%}
                   </p>
                 {% endif %}
