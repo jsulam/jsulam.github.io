@@ -102,9 +102,9 @@ div.lazy {
 .badge { border: 1px solid #ddd; /*background: #f8f9fa; */ } /* optional base */
 .badge[class*="topic-"] { border: 1px solid #ddd; }
 
-.topic-ml-interpretability   { background: #e0f7fa; color: #006064; }  /* teal */
-.topic-inverse-problems       { background: #fce4ec; color: #880e4f; }  /* magenta */
-.topic-protein-folding     { background: #e3f2fd; color: #0d47a1; }  /* blue */
+.badge.topic-ml-interpretability   { background: #e0f7fa; color: #006064; }  /* teal */
+.badge.topic-inverse-problems       { background: #fce4ec; color: #880e4f; }  /* magenta */
+.badge.topic-protein-folding     { background: #e3f2fd; color: #0d47a1; }  /* blue */
 .topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
 .topic-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
 .topic-biomedical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
