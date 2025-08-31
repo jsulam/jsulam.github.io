@@ -37,6 +37,4 @@ plugins:
 collections:
   - publications
   - news
-  - team:
-    output: true
   - showcase
