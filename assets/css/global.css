@@ -105,8 +105,8 @@ div.lazy {
 .topic-ml-interpretability   { background: #e0f7fa; color: #006064; }  /* teal */
 .topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
 .topic-biomedical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
-.topic-vetting            { background: #fff3e0; color: #e65100; }  /* orange */
-.topic-generative-models  { background: #ede7f6; color: #311b92; }  /* deep indigo */
+.topic-digital-pathology            { background: #fff3e0; color: #e65100; }  /* orange */
+.topic-generative-ai  { background: #ede7f6; color: #311b92; }  /* deep indigo */
 .topic-diffusion-models          { background: #e3f2fd; color: #0d47a1; }  /* blue */
 .topic-causality          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
 .topic-optimization       { background: #f9fbe7; color: #827717; }  /* olive green */
