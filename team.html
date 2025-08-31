@@ -7,34 +7,53 @@ navbar_title: Team
 <h1>Our Team</h1>
 
 <div class="row">
-  {% for person in site.team %}
+  {% assign current = site.team | where_exp: "p", "p.graduated != true" %}
+  {% for person in current %}
   <div class="col-md-4 mb-4">
     <div class="card h-100 shadow-sm rounded-xl text-center">
       <img src="{{ person.image }}" alt="{{ person.name }}" class="card-img-top rounded-circle p-3" style="object-fit:cover; width:150px; height:150px; margin:auto;">
       <div class="card-body">
         <h5 class="card-title">{{ person.name }}</h5>
         <p class="card-subtitle text-muted">{{ person.role }}</p>
+
         {%- assign raw_tags = person.topics | default: person.interests -%}
         {% if raw_tags %}
           {%- assign tags = raw_tags -%}
           {%- unless tags.first -%}{% assign tags = raw_tags | split: ',' %}{%- endunless -%}
           <p class="mt-2">
-            {%- for t in tags -%}
-              {%- assign t_label = t | strip -%}
-              {%- assign t_class = t_label | downcase | replace: ' ', '-' -%}
+            {% for t in tags %}
+              {% assign t_label = t | strip %}
+              {% assign t_class = t_label | downcase | replace: ' ', '-' %}
               <span class="badge topic-{{ t_class }} mr-1">{{ t_label }}</span>
-            {%- endfor -%}
+            {% endfor %}
           </p>
         {% endif %}
+
         <div class="mt-2">
           {% if person.homepage %}
-            <a href="{{ person.homepage }}" target="_blank" rel="noopener noreferrer"
-               class="btn btn-sm btn-outline-primary">Website</a>
+            <a href="{{ person.homepage }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">Website</a>
           {% endif %}
-          {% if person.email %}<a href="mailto:{{ person.email }}" class="btn btn-sm btn-outline-secondary">Email</a>{% endif %}
+          {% if person.email %}
+            <a href="mailto:{{ person.email }}" class="btn btn-sm btn-outline-secondary">Email</a>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
+
+
+<h2 class="mt-5">Alumni</h2>
+<ul class="list-unstyled">
+  {% assign alumni = site.team | where: "graduated", true %}
+  {% for alum in alumni %}
+    <li class="mb-2">
+      <strong>{{ alum.name }}</strong>
+      {% if alum.grad_year %} — PhD {{ alum.grad_year }}{% endif %}
+      {% if alum.homepage %}
+        <a href="{{ alum.homepage }}" target="_blank" rel="noopener noreferrer">[Website]</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
