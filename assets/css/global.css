@@ -110,8 +110,8 @@ div.lazy {
 .topic-biomarker-discovery { background: #e8eaf6; color: #1a237e; }  /* soft indigo (example) */
 .topic-generative-ai  { background: #ede7f6; color: #311b92; }  /* deep indigo */
 .topic-diffusion-models          { background: #e3f2fd; color: #0d47a1; }  /* blue */
-.topic-causality          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
+.topic-ml-robustness          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
 .topic-ml-trustworthiness         { background: #f1f8e9; color: #33691e; }  /* dark green */
-.topic-applications       { background: #fce4ec; color: #880e4f; }  /* magenta */
+.topic-ml-generalization       { background: #fce4ec; color: #880e4f; }  /* magenta */
 /* add more as needed */
 
