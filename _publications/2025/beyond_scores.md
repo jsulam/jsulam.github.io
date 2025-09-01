@@ -7,6 +7,7 @@ pub:            "arXiv"
 # pub_post:       'Under review.'
 pub_last:       
 pub_date:       "2025"
+cover:        /assets/images/papers/diffusion.png
 authors:
   - Zhenghan Fang
   - Mateo Diaz
