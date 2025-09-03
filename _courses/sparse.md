@@ -2,12 +2,12 @@
 title: Sparse Representations in Computer Vision and Machine Learning
 code: EN.580.709
 term: Fall 2019, 2020, 2021
-status: past           # current | upcoming | past
+status: current           # current | upcoming | past
 institution: Johns Hopkins University
 level: Graduate/Advanced Undergraduate
 
 # For ordering
-order: 10                 # smaller = earlier within group
+order: 1                 # smaller = earlier within group
 term_sort: 2025-09        # YYYY-MM, used to sort past courses chronologically
 
 description: >
