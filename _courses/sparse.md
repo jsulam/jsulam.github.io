@@ -14,7 +14,7 @@ level: Graduate/Advanced Undergraduate
 
 # Links follow the same map style as publications:
 links:
-  Website: https://jsulam-jhu.github.io/EN.580.709/
+  Website: /courses/sparse/
 
 # Optional short text (shown under title)
 abstract: > 
