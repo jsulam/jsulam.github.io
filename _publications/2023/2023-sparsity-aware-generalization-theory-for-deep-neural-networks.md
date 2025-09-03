@@ -6,8 +6,8 @@ pub:            "COLT"
 pub_date:       "2023"
 cover:          /assets/images/papers/COLT.png
 authors:
-  - Muthukumar, Ramchandran
-  - Sulam, Jeremias
+  - Ramchandran Muthukumar
+  - Jeremias Sulam
 links:
   Paper: https://proceedings.mlr.press/v195/muthukumar23a.html
 ---
