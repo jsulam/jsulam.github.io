@@ -1,46 +1,18 @@
 ---
 layout: default
-title: Teaching
+title : Teaching
 navbar_title: Teaching
 ---
 
-<h1>Teaching</h1>
+<h4 class="pt-4">Courses</h4>
 
-{%- assign teaching = site.teaching | default: site.collections.teaching.docs -%}
-{%- assign teaching = teaching | default: "" | split: "" -%}
-
-{%- assign current  = teaching | where: "status", "current"  | sort: "order" -%}
-{%- assign upcoming = teaching | where: "status", "upcoming" | sort: "order" -%}
-{%- assign past     = teaching | where: "status", "past"     | sort: "term_sort" | reverse -%}
-
-{%- assign any_items = current.size | plus: upcoming.size | plus: past.size -%}
-{% if any_items == 0 %}
-  <p class="text-muted">No teaching listed yet. Add markdown files to <code>_teaching/</code>.</p>
-{% endif %}
-
-{% if current.size > 0 %}
-  <h2 class="mt-4">Current</h2>
-  <div class="row">
-    {% for c in current %}
-      {% include class_card.html course=c %}
-    {% endfor %}
+{%- assign courses = site.courses | sort: "order" -%}
+{%- if courses.size == 0 -%}
+  <p class="text-muted">No courses yet. Add markdown files to <code>_courses/</code>.</p>
+{%- else -%}
+  <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+    {%- for item in courses -%}
+      {% include widgets/course_item.html item=item first=forloop.first last=forloop.last %}
+    {%- endfor -%}
   </div>
-{% endif %}
-
-{% if upcoming.size > 0 %}
-  <h2 class="mt-4">Upcoming</h2>
-  <div class="row">
-    {% for c in upcoming %}
-      {% include class_card.html course=c %}
-    {% endfor %}
-  </div>
-{% endif %}
-
-{% if past.size > 0 %}
-  <h2 class="mt-4">Past</h2>
-  <div class="row">
-    {% for c in past %}
-      {% include class_card.html course=c %}
-    {% endfor %}
-  </div>
-{% endif %}
+{%- endif -%}
