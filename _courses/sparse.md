@@ -23,3 +23,21 @@ abstract: >
   This course focuses on sparsity as a model for general data, generalizing many different other constructions or priors. This idea - that signals can be represented with just a few coefficients - leads to a long series of beautiful (and surprisingly, solvable) theoretical and numerical problems, and many applications that can benefit directly from the newly developed theory. This course surveys the field starting with the theoretical foundations and systematically making our way the results gathered in the past years. This course will touch on theory, numerical algorithms, and applications in image processing and machine learning. Recommended course background: Linear Algebra, Signals and Systems, Numerical Analysis.
 
 ---
+
+
+## Overview
+Short paragraph about goals, prerequisites, and outcomes.
+
+## Schedule
+- Week 1: Intro & notation
+- Week 2: Sparse coding
+- …
+
+## Assignments
+List or table (you can link PDFs in `/assets/courses/sparse/`).
+
+## Grading
+Policy here.
+
+## Policies
+Late work, integrity, accommodations, etc.
