@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<p><a href="{{ '/teaching' | relative_url }}">← Back to Teaching</a></p>
+<h1 class="mt-2">{{ page.title }}</h1>
+<p class="text-muted">
+  {% if page.code %}{{ page.code }} · {% endif %}
+  {% if page.term %}{{ page.term }}{% endif %}
+  {% if page.level %} · {{ page.level }}{% endif %}
+</p>
+
+{% if page.links %}
+  <p class="mb-3">
+    {% for k in page.links %}
+      {% assign label = k[0] %}
+      {% assign target = k[1] %}
+      {% if target.url %}
+        <a class="btn btn-sm btn-outline-primary mr-1" href="{{ target.url }}" target="{{ target.target | default: '_blank' }}" rel="noopener">{{ label }}</a>
+      {% else %}
+        <a class="btn btn-sm btn-outline-primary mr-1" href="{{ target }}" target="_blank" rel="noopener">{{ label }}</a>
+      {% endif %}
+    {% endfor %}
+  </p>
+{% endif %}
+
+<div class="bg-white shadow-sm rounded-xl p-3">
+  {{ content }}
+</div>
