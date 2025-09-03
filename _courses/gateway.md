@@ -2,6 +2,7 @@
 title: Sparse Representations in Computer Vision and Machine Learning
 code: EN.500.115
 term: Spring 2022
+term_sort: 2022-01
 level: Advanced Undergraduate
 
 # Ordering on the Teaching page:
