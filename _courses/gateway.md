@@ -15,10 +15,8 @@ order: 2
 # topics: [Sparse Models, Optimization]
 
 # Links follow the same map style as publications:
-links:
-  Syllabus:
-  Website: 
-  GitHub: 
+# links:
+
 
 # Optional short text (shown under title)
 abstract: >
