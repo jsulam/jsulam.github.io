@@ -46,11 +46,16 @@ navbar_title: Team
 
 <h2 class="mt-5">Alumni</h2>
 <ul class="list-unstyled">
-  {% assign alumni = site.team | where: "graduated", true %}
+  {%- assign alumni = site.team | where: "graduated", true | sort: "grad_year" | reverse -%}
   {% for alum in alumni %}
     <li class="mb-2">
       <strong>{{ alum.name }}</strong>
-      {% if alum.grad_year %} — PhD {{ alum.grad_year }}{% endif %}
+      {%- comment -%} Show degree + year when present; if only year exists, show just the year {%- endcomment -%}
+      {% if alum.grad_year and alum.role %}
+        — {{ alum.role }} {{ alum.grad_year }}
+      {% elsif alum.grad_year %}
+        — {{ alum.grad_year }}
+      {% endif %}
       {% if alum.now_at %} <span class="text-muted">— Now at: {{ alum.now_at }}</span>{% endif %}
       {% if alum.homepage %}
         <a href="{{ alum.homepage }}" target="_blank" rel="noopener noreferrer">[Website]</a>
