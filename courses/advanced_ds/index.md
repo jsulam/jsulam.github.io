@@ -6,6 +6,12 @@ title: EN.580.464/664 Advanced Data Science for Biomedical Engineering
 <h1 class="mt-2 mb-1">Advanced Data Science for Biomedical Engineering</h1>
 <p class="text-muted mb-4">EN.580.464/664 · Spring 2023, 2024, 2025 · Graduate / Advanced Undergraduate</p>
 
+<div class="alert alert-info mb-4" role="alert">
+  <strong>Note:</strong> All class materials (lectures, assignments, announcements) are hosted on 
+  <a href="https://canvas.jhu.edu/" target="_blank" rel="noopener">Canvas</a>.
+</div>
+
+
 <div class="bg-white shadow-sm rounded-xl p-3 mb-4">
   <h2 class="h4">Class Description</h2>
   <p class="mb-2">
