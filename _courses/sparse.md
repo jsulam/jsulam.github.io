@@ -16,7 +16,7 @@ order: 1
 
 # Links follow the same map style as publications:
 links:
-  Syllabus: https://jsulam-jhu.github.io/EN.580.709/
+  Website: https://jsulam-jhu.github.io/EN.580.709/
 
 # Optional short text (shown under title)
 abstract: > 
