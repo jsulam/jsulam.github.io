@@ -6,47 +6,41 @@ navbar_title: Teaching
 
 <h1>Teaching</h1>
 
-<div class="row">
-  {% assign current = site.courses | where: "status", "current" %}
-  {% for course in current %}
-  <div class="col-md-4 mb-4">
-    <div class="card h-100 shadow-sm rounded-xl">
-      <div class="card-body">
-        <h5 class="card-title">{{ course.title }}</h5>
-        <p class="card-subtitle text-muted">
-          {{ course.institution }}
-          {% if course.term %} · {{ course.term }}{% endif %}
-          {% if course.level %} · {{ course.level }}{% endif %}
-        </p>
-        {% if course.description %}
-          <p class="mt-2">{{ course.description }}</p>
-        {% endif %}
-        <div class="mt-2">
-          {% if course.links %}
-            {% for link in course.links %}
-              <a href="{{ link.url }}" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">{{ link.label }}</a>
-            {% endfor %}
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+{%- assign courses = site.courses | default: site.collections.courses.docs -%}
+{%- assign courses = courses | default: "" | split: "" -%}
 
-<h2 class="mt-5">Past Courses</h2>
-<ul class="list-unstyled">
-  {% assign past = site.courses | where: "status", "past" | sort: "term_sort" | reverse %}
-  {% for course in past %}
-    <li class="mb-2">
-      <strong>{{ course.title }}</strong>
-      {% if course.term %} — {{ course.term }}{% endif %}
-      {% if course.level %} <span class="text-muted">— {{ course.level }}</span>{% endif %}
-      {% if course.links %}
-        {% for link in course.links %}
-          <a href="{{ link.url }}" target="_blank" rel="noopener">[{{ link.label }}]</a>
-        {% endfor %}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{%- assign current  = courses | where: "status", "current"  | sort: "order" -%}
+{%- assign upcoming = courses | where: "status", "upcoming" | sort: "order" -%}
+{%- assign past     = courses | where: "status", "past"     | sort: "term_sort" | reverse -%}
+
+{%- assign any_items = current.size | plus: upcoming.size | plus: past.size -%}
+{% if any_items == 0 %}
+  <p class="text-muted">No courses listed yet. Add markdown files to <code>_courses/</code>.</p>
+{% endif %}
+
+{% if current.size > 0 %}
+  <h2 class="mt-4">Current</h2>
+  <div class="row">
+    {% for c in current %}
+      {% include class_card.html course=c %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if upcoming.size > 0 %}
+  <h2 class="mt-4">Upcoming</h2>
+  <div class="row">
+    {% for c in upcoming %}
+      {% include class_card.html course=c %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if past.size > 0 %}
+  <h2 class="mt-4">Past</h2>
+  <div class="row">
+    {% for c in past %}
+      {% include class_card.html course=c %}
+    {% endfor %}
+  </div>
+{% endif %}
