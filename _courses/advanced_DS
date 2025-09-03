@@ -13,9 +13,7 @@ level: Graduate/Advanced Undergraduate
 
 # Links follow the same map style as publications:
 links:
-  Syllabus: 
-  Website: 
-  GitHub: 
+  Website: /courses/advanced_ds/
 
 # Optional short text (shown under title)
 abstract: >
