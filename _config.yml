@@ -40,3 +40,6 @@ collections:
   - showcase
   - team
   - teaching
+      courses:
+        output: true
+        permalink: /teaching/:slug/
