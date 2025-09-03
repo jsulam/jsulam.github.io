@@ -6,16 +6,16 @@ navbar_title: Teaching
 
 <h1>Teaching</h1>
 
-{%- assign courses = site.courses | default: site.collections.courses.docs -%}
-{%- assign courses = courses | default: "" | split: "" -%}
+{%- assign teaching = site.teaching | default: site.collections.teaching.docs -%}
+{%- assign teaching = teaching | default: "" | split: "" -%}
 
-{%- assign current  = courses | where: "status", "current"  | sort: "order" -%}
-{%- assign upcoming = courses | where: "status", "upcoming" | sort: "order" -%}
-{%- assign past     = courses | where: "status", "past"     | sort: "term_sort" | reverse -%}
+{%- assign current  = teaching | where: "status", "current"  | sort: "order" -%}
+{%- assign upcoming = teaching | where: "status", "upcoming" | sort: "order" -%}
+{%- assign past     = teaching | where: "status", "past"     | sort: "term_sort" | reverse -%}
 
 {%- assign any_items = current.size | plus: upcoming.size | plus: past.size -%}
 {% if any_items == 0 %}
-  <p class="text-muted">No courses listed yet. Add markdown files to <code>_courses/</code>.</p>
+  <p class="text-muted">No teaching listed yet. Add markdown files to <code>_teaching/</code>.</p>
 {% endif %}
 
 {% if current.size > 0 %}
