@@ -5,10 +5,10 @@ selected:       false
 pub:            "Nature Medicine"
 pub_date:       "2023"
 authors:
-  - Garin, S. P.
-  - Parekh, V. S.
-  - Sulam, Jeremias
-  - Yi, Paul H.
+  - Sean P. Garin
+  - Vishwa S. Parekh
+  - Jeremias Sulam
+  - Paul H. Yi
 links:
   Paper: https://www.nature.com/articles/s41591-023-02264-0
 ---
