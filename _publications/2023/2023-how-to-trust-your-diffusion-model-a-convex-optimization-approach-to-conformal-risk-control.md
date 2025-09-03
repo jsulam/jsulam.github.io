@@ -5,10 +5,10 @@ selected:       false
 pub:            "ICML"
 pub_date:       "2023"
 authors:
-  - Teneggi, Jacopo
-  - Tivnan, Matthew
-  - Stayman, J. Webster
-  - Sulam, Jeremias
+  - Jacopo Teneggi
+  - Matthew Tivnan
+  - Webster J. Stayman
+  - Jeremias Sulam
 links:
   Paper: https://proceedings.mlr.press/v202/teneggi23a/teneggi23a.pdf
   Code: https://github.com/Sulam-Group/k-rcps
