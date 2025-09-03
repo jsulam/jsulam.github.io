@@ -10,7 +10,14 @@
     </div>
 
     <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-      <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+      {% assign preferred_url = item.website | default: item.url %}
+      <h5 class="mt-0 mb-1 font-weight-normal">
+        {% if preferred_url %}
+          <a href="{{ preferred_url | relative_url }}">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h5>
       <p class="mt-0 mb-0 small">
         {% if item.code %}{{ item.code }}{% endif %}
         {% if item.term %}{% if item.code %} · {% endif %}{{ item.term }}{% endif %}
