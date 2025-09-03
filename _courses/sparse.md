@@ -1,12 +1,10 @@
 ---
+layout: default
 title: Sparse Representations in Computer Vision and Machine Learning
 code: EN.580.709
 term: Fall 2019, 2020, 2021
 term_sort: 2019-09
 level: Graduate/Advanced Undergraduate
-
-# Ordering on the Teaching page:
-order: 1
 
 # Optional visual (uses same pattern as publications)
 # cover: /assets/images/courses/sparse.png
