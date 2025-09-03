@@ -2,33 +2,24 @@
 title: Sparse Representations in Computer Vision and Machine Learning
 code: EN.580.709
 term: Fall 2019, 2020, 2021
-status: current           # current | upcoming | past
-institution: Johns Hopkins University
 level: Graduate/Advanced Undergraduate
 
-# For ordering
-order: 1                 # smaller = earlier within group
-term_sort: 2025-09        # YYYY-MM, used to sort past courses chronologically
+# Ordering on the Teaching page:
+order: 1
 
-description: >
-  Core concepts in supervised and unsupervised learning, with emphasis on
-  probabilistic modeling and modern optimization techniques.
+# Optional visual (uses same pattern as publications)
+# cover: /assets/images/courses/sparse.png
 
-# tags:
-#  - machine learning
-#  - core
+# Optional tags (same pattern as publications)
+# topics: [Sparse Models, Optimization]
 
+# Links follow the same map style as publications:
 links:
-  - label: Syllabus (PDF)
-    url: https://example.com/syllabus.pdf
-  - label: Course site
-    url: https://example.com
-  - label: GitHub
-    url: https://github.com/yourorg/yourrepo
+  Syllabus: https://example.com/syllabus.pdf
+  Website: https://example.com
+  GitHub: https://github.com/yourorg/yourrepo
+
+# Optional short text (shown under title)
+abstract: >
+  Core concepts in sparsity and optimization with applications in imaging and ML.
 ---
-
-This is the optional body of the course page.
-
-Anything you write here (markdown, images, lists) will appear on the
-dedicated course page at `/teaching/ml-foundations/` when you click through
-the card on the Teaching page.
