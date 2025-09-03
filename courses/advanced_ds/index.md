@@ -18,7 +18,7 @@ title: EN.580.464/664 Advanced Data Science for Biomedical Engineering
     This course will focus on the fundamental concepts, learning paradigms, and problems in modern data science. It will provide students with a precise characterization of problems and algorithms for learning from data, from problem formulations to data models to algorithms. We will cover supervised and unsupervised problems, as well as topics on modern aspects of the application of data science in the 21st century, including aspects of interpretability and fairness. 
   </p>
   <p class="mb-0">
-    <strong>Who is this for?</strong> This course is "advanced" in the sense that it will presume undergraduate-level courses in statistics, linear algebra, programming, and basic introductory classes to data science. It is ideal for undergraduate students wanting to specialize in data science, or for graduate students looking for a theory-oriented introduction on data science.
+    <strong>Who is this for?</strong> This course is "advanced" in the sense that it will presume undergraduate-level courses in statistics, linear algebra, programming, and basic introductory classes to data science. It is ideal for undergraduate students wanting to specialize in data science, or for graduate students looking for a <strong>theory-oriented introduction to data science</strong>.
   </p>
 </div>
 
