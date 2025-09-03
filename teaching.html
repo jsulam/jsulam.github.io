@@ -6,11 +6,6 @@ navbar_title: Teaching
 
 <h1>Teaching</h1>
 
-<p class="text-muted">
-  Debug → courses.size = {{ courses | size }}
-  {% for c in courses %}[{{ c.title }} / {{ c.status }}]{% endfor %}
-</p>
-
 {%- assign courses = site.courses | default: site.collections.courses.docs -%}
 {%- assign courses = courses | default: "" | split: "" -%}
 
