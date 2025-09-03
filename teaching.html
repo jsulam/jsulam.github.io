@@ -6,7 +6,7 @@ navbar_title: Teaching
 
 <h4 class="pt-4">Courses</h4>
 
-{%- assign courses = site.courses | sort: "order" -%}
+{%- assign courses = site.courses | sort: "term_sort" | reverse -%}
 {%- if courses.size == 0 -%}
   <p class="text-muted">No courses yet. Add markdown files to <code>_courses/</code>.</p>
 {%- else -%}
