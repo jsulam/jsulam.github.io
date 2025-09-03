@@ -1,0 +1,23 @@
+---
+title: Sparse Representations in Computer Vision and Machine Learning
+code: EN.580.709
+term: Spring 2023, 2024, 2025
+term_sort: 2023-01
+level: Graduate/Advanced Undergraduate
+
+# Optional visual (uses same pattern as publications)
+# cover: /assets/images/courses/sparse.png
+
+# Optional tags (same pattern as publications)
+# topics: [Sparse Models, Optimization]
+
+# Links follow the same map style as publications:
+links:
+  Syllabus: 
+  Website: 
+  GitHub: 
+
+# Optional short text (shown under title)
+abstract: >
+  This course will focus on the fundamental concepts, learning paradigms, and problems in modern data science. It will provide students with a precise characterization of problems and algorithms for learning from data, from problem formulations to data models to algorithms. We will cover supervised and unsupervised problems, as well as topics on modern aspects of the application of data science in the 21st century, including aspects of interpretability and fairness. This course is "advanced" in the sense that it will presume undergraduate-level courses in statistics, linear algebra, programming, and basic introductory classes to data science. It is ideal for undergraduate students wanting to specialize in data science, or for graduate students looking for a theory-oriented introduction on data science.
+---
