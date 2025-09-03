@@ -1,5 +1,5 @@
 ---
-title: Sparse Representations in Computer Vision and Machine Learning
+title: Gateway Data Science
 code: EN.500.115
 term: Spring 2022
 term_sort: 2022-01
