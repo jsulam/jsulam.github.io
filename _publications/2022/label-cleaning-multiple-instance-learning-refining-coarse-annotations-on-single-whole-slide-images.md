@@ -4,7 +4,7 @@ date:           2022-12-01
 selected:       false
 pub:            "IEEE Transactions on Medical Imaging"
 pub_date:       "2022"
-cover:    https://ieeexplore.ieee.org/mediastore/IEEE/content/media/42/9969446/9869889/wang1-3202759-large.gif
+cover:    https://ieeexplore.ieee.org/mediastore/IEEE/content/media/42/9969446/9869889/wang1-3202759-small.gif
 authors:
   - Zhenzhen Wang
   - Carla Saoud
