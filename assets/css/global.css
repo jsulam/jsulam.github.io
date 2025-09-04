@@ -107,6 +107,7 @@ div.lazy {
 .badge.topic-protein-folding     { background: #e3f2fd; color: #0d47a1; }  /* blue */
 .badge.topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
 .badge.topic-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
+.badge.topic-sparse-coding            { background: #e8f5e9; color: #1b5e20; }  /* green */
 .badge.topic-biomedical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
 .badge.topic-digital-pathology   { background: #fff3e0; color: #e65100; }  /* orange */
 .badge.topic-biomarker-discovery { background: #e8eaf6; color: #1a237e; }  /* soft indigo (example) */
@@ -116,56 +117,5 @@ div.lazy {
 .badge.topic-ml-trustworthiness         { background: #f1f8e9; color: #33691e; }  /* dark green */
 .badge.topic-ml-generalization       { background: #fce4ec; color: #880e4f; }  /* magenta */
 /* add more as needed */
-
-
-
-/* === Light theme (default) === */
-:root {
-  --bg: #ffffff;
-  --text: #111111;
-  --muted: #6c757d;
-
-  --card-bg: #ffffff;
-  --card-border: #e5e7eb;
-
-  --link: #0d6efd;
-  --link-hover: #0b5ed7;
-}
-
-/* === Dark theme overrides === */
-:root[data-theme="dark"] {
-  --bg: #0f1115;
-  --text: #e6e7ea;
-  --muted: #a0a3a8;
-
-  --card-bg: #171a21;
-  --card-border: #2a2f3a;
-
-  --link: #6ea8fe;
-  --link-hover: #9cc2ff;
-}
-
-/* Wire variables into common elements */
-html, body {
-  background: var(--bg);
-  color: var(--text);
-}
-
-/* Make “muted” text adjust */
-.text-muted { color: var(--muted) !important; }
-
-/* Cards / white boxes in your site */
-.card,
-.bg-white,
-.rounded-xl,
-.shadow-sm {
-  background-color: var(--card-bg) !important;
-  color: var(--text);
-  border-color: var(--card-border) !important;
-}
-
-/* Links */
-a { color: var(--link); }
-a:hover, a:focus { color: var(--link-hover); }
 
 
