@@ -11,6 +11,30 @@
     
       gtag('config', 'G-BCGMESZ3H7');
     </script>
+
+    <!-- adding togling theme option -->
+    <script>
+    (function () {
+      const KEY = 'color-theme';
+      const root = document.documentElement;
+      const btn  = document.getElementById('theme-toggle');
+    
+      const saved = localStorage.getItem(KEY);
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      apply(saved || (prefersDark ? 'dark' : 'light'));
+    
+      if (btn) btn.onclick = function () {
+        apply(root.dataset.theme === 'dark' ? 'light' : 'dark', true);
+      };
+    
+      function apply(mode, persist) {
+        root.setAttribute('data-theme', mode === 'dark' ? 'dark' : 'light');
+        if (btn) btn.textContent = (mode === 'dark') ? '☀️ Light' : '🌙 Dark';
+        if (persist) localStorage.setItem(KEY, mode);
+      }
+    })();
+    </script>    
+    <!-- adding togling theme option -->
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
