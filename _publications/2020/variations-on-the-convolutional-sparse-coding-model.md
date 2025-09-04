@@ -9,7 +9,7 @@ authors:
   - Jeremias Sulam
   - Michael Elad
 links:
-  Paper https://ieeexplore.ieee.org/document/8950415
+  Paper: https://ieeexplore.ieee.org/document/8950415
 topics:
   - Sparse Coding
 ---
