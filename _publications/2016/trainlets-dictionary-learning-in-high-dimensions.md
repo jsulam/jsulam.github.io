@@ -5,8 +5,13 @@ selected:       false
 pub:            "IEEE Transactions on Signal Processing"
 pub_date:       "2016"
 authors:
-  - J. Sulam
-  - B. Ophir
-  - M. Zibulevsky
-  - M. Elad
+  - Jeremias Sulam
+  - Boaz Ophir
+  - Michael Zibulevsky
+  - Michael Elad
+links:
+  Paper: https://ieeexplore.ieee.org/document/7430359
+topics:
+  - Sparse Coding
+  - Inverse Problems
 ---
