@@ -13,5 +13,5 @@ authors:
   - Aleksander S. Popel
   - Jeremias Sulam
 links:
-  - Paper: https://ieeexplore.ieee.org/document/9869889
+  Paper: https://ieeexplore.ieee.org/document/9869889
 ---
