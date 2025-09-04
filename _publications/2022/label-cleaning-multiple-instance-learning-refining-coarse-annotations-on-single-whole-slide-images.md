@@ -12,8 +12,6 @@ authors:
   - Aaron W. James
   - Aleksander S. Popel
   - Jeremias Sulam
-
 links:
   - Paper: https://ieeexplore.ieee.org/document/9869889
-
 ---
