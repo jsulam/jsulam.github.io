@@ -5,7 +5,11 @@ selected:       false
 pub:            "IEEE Transactions on Signal Processing"
 pub_date:       "2020"
 authors:
-  - I. Rey Otero
-  - J. Sulam
-  - M. Elad
+  - Ives Rey-Otero
+  - Jeremias Sulam
+  - Michael Elad
+links:
+  Paper https://ieeexplore.ieee.org/document/8950415
+topics:
+  - Sparse Coding
 ---
