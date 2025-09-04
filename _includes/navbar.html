@@ -12,6 +12,13 @@
                     <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
+
+                <!-- Dark/Light toggle button -->
+                <li class="nav-item">
+                  <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-2" type="button">
+                    🌙 Dark
+                  </button>
+                </li>
             </ul>
         </div>
     </div>
