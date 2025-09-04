@@ -1,11 +1,13 @@
 ---
 title:          "Fast Hierarchical Games for Image Explanations"
-date:           2022-01-01
+date:           2023-04-01
 selected:       false
 pub:            "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
-pub_date:       "2022"
+pub_date:       "2023"
 authors:
-  - J. Teneggi
-  - A. Luster
-  - J. Sulam
+  - Jacopo Teneggi
+  - Alexandre Luster
+  - Jeremias Sulam
+links:
+  Paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9826424
 ---
