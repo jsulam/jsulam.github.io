@@ -5,6 +5,8 @@ selected:       false
 pub:            "AISTATS"
 pub_date:       "2022"
 authors:
-  - J. Agterberg
-  - J. Sulam
+  - Joshua Agterberg
+  - Jeremias Sulam
+links:
+  Paper: https://proceedings.mlr.press/v151/agterberg22a/agterberg22a.pdf
 ---
