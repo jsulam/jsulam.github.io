@@ -14,4 +14,6 @@ authors:
   - Jeremias Sulam
 links:
   Paper: https://ieeexplore.ieee.org/document/9869889
+topics:
+  - Digital Pathology
 ---
