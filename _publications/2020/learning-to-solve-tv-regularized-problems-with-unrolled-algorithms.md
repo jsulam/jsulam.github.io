@@ -9,7 +9,7 @@ authors:
   - J. Sulam
   - T. Moreau
 links:
-  Paper https://proceedings.neurips.cc/paper/2020/file/84fec9a8e45846340fdf5c7c9f7ed66c-Paper.pdf
+  Paper: https://proceedings.neurips.cc/paper/2020/file/84fec9a8e45846340fdf5c7c9f7ed66c-Paper.pdf
 topics:
   - Inverse Problems
 ---
