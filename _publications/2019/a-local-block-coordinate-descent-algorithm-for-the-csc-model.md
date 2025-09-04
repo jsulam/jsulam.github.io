@@ -5,7 +5,12 @@ selected:       false
 pub:            "CVPR"
 pub_date:       "2019"
 authors:
-  - E. Zisselman
-  - J. Sulam
-  - M. Elad
+  - Eve Zisselman
+  - Jeremias Sulam
+  - Michael Elad
+links:
+  Paper: https://ieeexplore.ieee.org/document/8953409
+topics:
+  - Sparse Coding
+  - Inverse Problems
 ---
