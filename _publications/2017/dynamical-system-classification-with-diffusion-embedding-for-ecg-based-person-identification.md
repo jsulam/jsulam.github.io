@@ -5,7 +5,12 @@ selected:       false
 pub:            "Signal Processing"
 pub_date:       "2017"
 authors:
-  - J. Sulam
-  - Y. Romano
-  - R. Talmon
+  - Jeremias Sulam
+  - Yaniv Romano
+  - Ronen Talmon
+topics:
+  - Signal Processing
+  - EKG
+links:
+  Paper: https://jsulam.cswp.cs.technion.ac.il/wp-content/uploads/sites/27/2016/08/FinalCopy.pdf
 ---
