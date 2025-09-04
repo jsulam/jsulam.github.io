@@ -5,8 +5,14 @@ selected:       false
 pub:            "IEEE Transactions on Signal Processing"
 pub_date:       "2018"
 authors:
-  - J. Sulam
-  - V. Papyan
-  - Y. Romano
-  - M. Elad
+  - Jeremias Sulam
+  - Vardan Papyan
+  - Yaniv Romano
+  - Michael Elad
+links:
+  Paper: https://ieeexplore.ieee.org/document/8379455
+topics:
+  - Sparse Coding
+  - Theory
+  - Neural Networks
 ---
