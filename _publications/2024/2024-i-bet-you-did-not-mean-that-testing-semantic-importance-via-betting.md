@@ -1,6 +1,6 @@
 ---
-title:          "I Bet You Did Not Mean That: Testing Semantic Importance via Betting"
-date:           2024-01-01
+title:          "Testing Semantic Importance via Betting"
+date:           2024-12-01
 selected:       true
 pub:            "NeurIPS"
 pub_date:       "2024"
