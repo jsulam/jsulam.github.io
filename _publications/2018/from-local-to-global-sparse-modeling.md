@@ -5,7 +5,7 @@ selected:       false
 pub:            "PhD Thesis, Technion - Israel Institute of Technology"
 pub_date:       "2018"
 authors:
-  - J. Sulam
+  - Jeremias Sulam
 links:
   Thesis: /assets/Sulam_thesis.pdf
 ---
