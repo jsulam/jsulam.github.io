@@ -4,7 +4,7 @@ date:           2022-08-01
 selected:       false
 pub:            "IEEE Transactions on Medical Imaging"
 pub_date:       "2022"
-cover: "https://ieeexplore.ieee.org/mediastore/IEEE/content/media/42/9969446/9869889/wang1-3202759-small.gif"
+cover: /assets/images/papers/LCMIL.gif
 authors:
   - Zhenzhen Wang
   - Carla Saoud
