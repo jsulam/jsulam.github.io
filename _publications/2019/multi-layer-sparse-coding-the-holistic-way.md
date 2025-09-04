@@ -5,7 +5,12 @@ selected:       false
 pub:            "SIAM Journal on Mathematics of Data Science"
 pub_date:       "2019"
 authors:
-  - A. Aberdam
-  - J. Sulam
-  - M. Elad
+  - Aviad Aberdam
+  - Jeremias Sulam
+  - Michael Elad
+links:
+  Paper: https://epubs.siam.org/doi/10.1137/18M1183352
+topics:
+  - Sparse Coding
+  - Theory
 ---
