@@ -1,9 +1,10 @@
 ---
 title:          "How To Trust Your Diffusion Model: A Convex Optimization Approach to Conformal Risk Control"
-date:           2023-01-01
+date:           2023-07-01
 selected:       false
-pub:            "ICML"
+pub:            "International Conference on Machine Learning (ICML)"
 pub_date:       "2023"
+cover:           /assets/images/papers/trust2023.png
 authors:
   - Jacopo Teneggi
   - Matthew Tivnan
