@@ -41,7 +41,10 @@
                             {{ site.data.profile.short_bio | markdownify }}
                         </div>
                         {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                            {% comment %}
+                                <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                            {% endcomment %}
+                            <a href="{{ site.data.profile.cv_link }}" target="_blank" class="track-cv">Curriculum Vitae</a> <br/>
                         {% endif %}
                     </div>
         
