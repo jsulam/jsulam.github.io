@@ -1,6 +1,6 @@
 ---
 title:          "Label Cleaning Multiple Instance Learning: Refining Coarse Annotations on Single Whole-Slide Images"
-date:           2022-12-01
+date:           2022-08-01
 selected:       false
 pub:            "IEEE Transactions on Medical Imaging"
 pub_date:       "2022"
