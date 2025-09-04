@@ -5,8 +5,13 @@ selected:       false
 pub:            "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 pub_date:       "2019"
 authors:
-  - J. Sulam
-  - A. Aberdam
-  - A. Beck
-  - M. Elad
+  - Jeremias Sulam
+  - Aviad Aberdam
+  - Amir Beck
+  - Michael Elad
+links:
+  Paper: https://ieeexplore.ieee.org/document/8664165
+topics:
+  - Sparse Coding
+  - Theory
 ---
