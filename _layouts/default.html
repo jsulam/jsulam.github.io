@@ -11,6 +11,38 @@
     
       gtag('config', 'G-BCGMESZ3H7');
     </script>
+
+    <!-- Light/Dark mode switching -->
+    <script>
+    (function () {
+      const STORAGE_KEY = 'color-theme';
+      const root = document.documentElement;
+      const btn = document.getElementById('theme-toggle');
+    
+      const saved = localStorage.getItem(STORAGE_KEY);
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const initial = saved || (systemPrefersDark ? 'dark' : 'light');
+      applyTheme(initial);
+    
+      if (btn) {
+        btn.addEventListener('click', () => {
+          const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+          applyTheme(next, true);
+        });
+      }
+    
+      function applyTheme(mode, persist) {
+        if (mode === 'dark') {
+          root.setAttribute('data-theme', 'dark');
+          if (btn) btn.textContent = '☀️ Light';
+        } else {
+          root.setAttribute('data-theme', 'light');
+          if (btn) btn.textContent = '🌙 Dark';
+        }
+        if (persist) localStorage.setItem(STORAGE_KEY, mode);
+      }
+    })();
+    </script>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
