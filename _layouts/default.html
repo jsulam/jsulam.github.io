@@ -14,16 +14,34 @@
 
     <!-- Google tag tracking for CV Clicks-->
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll("a.track-cv").forEach(function(link) {
-        link.addEventListener("click", function() {
-          gtag('event', 'cv_download', {
-            event_category: 'Profile',
+    (function () {
+      function fireCv(link) {
+        if (typeof gtag === "function") {
+          gtag("event", "cv_download", {
+            event_category: "Profile",
             event_label: link.href
           });
-        });
-      });
-    });
+        }
+      }
+    
+      // Event delegation: works even if the link is rendered later
+      document.addEventListener("click", function (e) {
+        var a = e.target.closest && e.target.closest("a.track-cv");
+        if (!a) return;
+    
+        // Fire the GA event
+        fireCv(a);
+    
+        // If the link opens in the same tab, delay navigation a hair so GA can send
+        if (!a.target || a.target === "_self") {
+          e.preventDefault();
+          setTimeout(function () {
+            window.location.href = a.href;
+          }, 150); // ~150ms is enough for GA to dispatch
+        }
+        // If target="_blank", no need to prevent default — event still fires
+      }, { capture: true });
+    })();
     </script>
     
     
