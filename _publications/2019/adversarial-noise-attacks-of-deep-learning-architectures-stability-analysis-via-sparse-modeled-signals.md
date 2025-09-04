@@ -5,8 +5,13 @@ selected:       false
 pub:            "Journal of Mathematical Imaging and Vision"
 pub_date:       "2019"
 authors:
-  - Y. Romano
-  - A. Aberdam
-  - J. Sulam
-  - M. Elad
+  - Yaniv Romano
+  - Aviad Aberdam
+  - Jeremias Sulam
+  - Michael Elad
+links:
+  Paper: https://link.springer.com/article/10.1007/s10851-019-00913-z
+topics:
+  - Sparse Coding
+  - ML Robustness
 ---
