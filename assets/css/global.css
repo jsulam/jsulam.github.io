@@ -119,3 +119,49 @@ div.lazy {
 /* add more as needed */
 
 
+/* assets/css/talks.css */
+.talks-year {
+    margin-top: 2.2rem;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1.2rem;
+  }
+  
+  .talk-card {
+    padding: 0.9rem 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    margin: 0.6rem 0 0.9rem;
+    background: #fff;
+  }
+  
+  .talk-title {
+    font-weight: 600;
+    margin: 0 0 0.2rem;
+    line-height: 1.35;
+  }
+  
+  .talk-meta {
+    color: #6b7280; /* gray-500 */
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
+  }
+  
+  .talk-actions a {
+    display: inline-block;
+    border: 1px solid #d1d5db;
+    padding: 0.22rem 0.55rem;
+    border-radius: 9999px; /* pill */
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-right: 0.4rem;
+  }
+  
+  .talk-actions a:hover {
+    background: #f3f4f6;
+    border-color: #cbd5e1;
+  }
+  
+  .talks-intro {
+    margin-bottom: 1rem;
+    color: #4b5563; /* gray-600 */
+  }
