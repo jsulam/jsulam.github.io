@@ -1,0 +1,56 @@
+---
+layout: default
+title : Talks
+navbar_title: Talks
+---
+
+<p class="talks-intro">
+  Selected invited talks and lectures. For publications, see the <a href="/publications">Publications</a> page.
+</p>
+
+{% assign talks_sorted = site.data.talks | sort: "date" %}
+{% assign groups = talks_sorted | group_by_exp: "t", "t.date | date: '%Y'" | sort: "name" | reverse %}
+
+{% for g in groups %}
+  <h5 class="talks-year">{{ g.name }}</h5>
+  {% assign items = g.items | sort: "date" | reverse %}
+  {% for t in items %}
+    <div class="talk-card">
+      <div class="talk-title">{{ t.title }}</div>
+      <div class="talk-meta">
+        {% if t.venue %}<em>{{ t.venue }}</em>{% endif %}
+        {% if t.location %} · {{ t.location }}{% endif %}
+        {% if t.date %} · <span>{{ t.date | date: "%b %Y" }}</span>{% endif %}
+      </div>
+
+      {% if t.links %}
+        {% assign L = t.links %}
+        {% assign links = "" %}
+
+        {%- comment -%} Build links string with separators only when needed {%- endcomment -%}
+        {% if L.slides and L.slides != "" %}
+          {% assign slides_link = '<a class="mr-2" href="' | append: L.slides | append: '" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint"></i> slides</a>' %}
+          {% assign links = links | append: slides_link %}
+        {% endif %}
+
+        {% if L.video and L.video != "" %}
+          {% if links != "" %}{% assign links = links | append: ' · ' %}{% endif %}
+          {% assign video_link = '<a class="mr-2" href="' | append: L.video | append: '" target="_blank" rel="noopener"><i class="fas fa-video"></i> video</a>' %}
+          {% assign links = links | append: video_link %}
+        {% endif %}
+
+        {% if L.event and L.event != "" %}
+          {% if links != "" %}{% assign links = links | append: ' · ' %}{% endif %}
+          {% assign event_link = '<a class="mr-2" href="' | append: L.event | append: '" target="_blank" rel="noopener"><i class="fas fa-link"></i> event</a>' %}
+          {% assign links = links | append: event_link %}
+        {% endif %}
+
+        {% if links != "" %}
+          <div class="talk-actions small text-muted mt-1">
+            {{ links | raw }}
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endfor %}

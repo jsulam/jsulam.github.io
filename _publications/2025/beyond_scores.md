@@ -2,7 +2,7 @@
 title:          "Beyond Scores: Proximal Diffusion Models"
 date:           2025-07-1
 selected:       true
-pub:            "arXiv"
+pub:            "Neurips 2025 (to appear)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       

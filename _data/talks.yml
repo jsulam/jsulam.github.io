@@ -1,0 +1,170 @@
+- title: "Machine learning interpretability to study biology?"
+  venue: "Institute for Computational Medicine"
+  location: "JHU"
+  date: "2025-09-02"
+  links:
+    slides: "https://slides.com/jeremiassulam/icm-2025/fullscreen?token=s0wdAIrm"
+    video: ""
+    event: ""
+
+- title: "Modern Problems in trustworthy medical imaging"
+  venue: "Medtronic"
+  location: "Minneapolis, MN"
+  date: "2025-06-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/medtronic2025/fullscreen"
+    video: ""
+    event: ""
+
+- title: "Foundations of Interpretable AI with Shapley Values"
+  venue: "CVPR 2025"
+  location: "Tutorial"
+  date: "2025-07-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/cvpr2025/fullscreen"
+    video: ""
+    event: ""
+
+- title: "From data to insights: trustworthy methods for modern biomedical imaging"
+  venue: "Penn ASSET Seminar"
+  location: "University of Pennsylvania"
+  date: "2025-03-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/penn2025/fullscreen"
+    video: ""
+    event: ""
+
+- title: "Testing semantic importance via betting"
+  venue: "IMS International Conference on Statistics and Data Science (ICSDS)"
+  location: "Nice, Fr"
+  date: "2024-12-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/icsds2024/fullscreen"
+    video: ""
+    event: ""
+
+- title: "What has my model learned?"
+  venue: "University of Michigan, EE seminar series"
+  location: "Ann Arbor, MI"
+  date: "2024-10-30"
+  links:
+    slides: "https://slides.com/jeremiassulam/umich/fullscreen"
+    video: ""
+    event: ""
+
+- title: "Yes, my network works! But.. what did it learn?"  
+  venue: "Mathematics of Deep Learning, BIRS Casa Matemática Oaxaca"
+  location: "Oaxaca, MX"
+  date: "2024-09-01"
+  links:
+    slides: ""
+    video: "https://www.birs.ca/events/2024/5-day-workshops/24w5297/videos/watch/202406100900-Sulam.html"
+    event: ""
+
+- title: "Yes, my network works! But.. what did it learn?"  
+  venue: "Mathematical and Scientific Foudnations of Deep Learning, Annual Meeting"
+  location: "SIMONS Founations, NYC"
+  date: "2024-09-27"
+  links:
+    slides: https://slides.com/jeremiassulam/simons2024/fullscreen
+    video: https://www.simonsfoundation.org/video/jeremias-sulam-yay-my-deep-network-works-but-what-did-it-learn/
+    event: https://www.simonsfoundation.org/event/mathematical-and-scientific-foundations-of-deep-learning-annual-meeting-2024/
+
+- title: "Imaging, Data and Learning: Challenges in biomedical data science"
+  venue: "Hariri Institute at Boston University"
+  location: "Boston, MA"
+  date: "2024-04-01"
+  links:
+    slides: ""
+    video: "https://www.youtube.com/watch?ab_channel=HaririInstituteforComputing%2CBostonUniversity&v=JbC9d2c5Tbo"
+    event: ""
+
+- title: "Estimating and controlling for fairness via sensitive attribute predictors"
+  venue: "MSRI (Berkeley)"
+  location: "Berkeley, CA"
+  date: "2023-08-01"
+  links:
+    slides: ""
+    video: "https://player.vimeo.com/video/859591577"
+    event: ""
+
+- title: "Understanding Deep Nets: Sparse Local Lipschitz functions and Learned Proximal Networks"
+  venue: "SILO (UW–Madison) and TTIC (Chicago)"
+  location: "Madison, WI; Chicago, IL"
+  date: "2023-11-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/theory_nn/fullscreen?token=t6mFtDuU"
+    video: ""
+    event: ""
+
+- title: "Modern Challenges in Biomedical Imaging"
+  venue: "Annual symposium of IBBS, Hopkins"
+  location: "Baltimore, MD"
+  date: "2023-11-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/challenges/fullscreen?token=KDYonZUK"
+    video: ""
+    event: ""
+
+- title: "Controlling for fairness with proxy sensitive attributes"
+  venue: "Workshop on Algorithms, Fairness and Equity at SLMath (MSRI)"
+  location: "Berkeley, CA"
+  date: "2023-09-01"
+  links:
+    slides: ""
+    video: "https://player.vimeo.com/video/859591577"
+    event: ""
+
+- title: "Overparametrized and Robust Sparse Models"
+  venue: "ICCHA 2022"
+  location: "Buenos Aires, AR"
+  date: "2022-09-01"
+  links:
+    slides: "https://drive.google.com/file/d/1UYnHTw7971G_HsejwyjpiZqsKl9PKwf8/view?usp=sharing"
+    video: ""
+    event: ""
+
+- title: "Responsible ML: Interpretable and fair machine learning models"
+  venue: "sinc(i), Argentina"
+  location: "Argentina"
+  date: "2022-08-01"
+  links:
+    slides: "https://slides.com/jeremiassulam/deck-a0450e/fullscreen?token=OzXFtCHp"
+    video: ""
+    event: ""
+
+- title: "Overparameterized and Adversarially Robust Sparse Models"
+  venue: "JHU CS Seminar"
+  location: "Baltimore, MD"
+  date: "2020-10-01"
+  links:
+    slides: ""
+    video: "https://www.youtube.com/watch?ab_channel=JohnsHopkinsWhitingSchoolofEngineering&v=7MxBvKiqA7c"
+    event: ""
+
+- title: "Invited talk"
+  venue: "Workshop: Integration of Deep Learning Theories (NeurIPS’18)"
+  location: ""
+  date: "2018-12-01"
+  links:
+    slides: "https://drive.google.com/file/d/18sQz4ylJZRdqXEZZ_Iv9Uk1IcIHA9mVi/view?usp=drive_open"
+    video: ""
+    event: "https://nips2018dltheory.rice.edu/"
+
+- title: "Convolutional Networks as Sparse Enforcing Algorithms"
+  venue: "Invited lecture at Rene Vidal’s course on Mathematics of Deep Learning (JHU)"
+  location: "Baltimore, MD"
+  date: "2018-11-01"
+  links:
+    slides: "https://drive.google.com/file/d/1Vxhe1ikRdcsoiwjh5ns0knMPLP1YzZrS/view?usp=drive_open"
+    video: ""
+    event: ""
+
+- title: "From Shallow to Deep Sparsity with Convolutional Networks"
+  venue: "CoSIP Intense Course on Deep Learning (TU Berlin)"
+  location: "Berlin, DE"
+  date: "2017-12-01"
+  links:
+    slides: "https://jsulam.cswp.cs.technion.ac.il/wp-content/uploads/sites/27/2017/12/Presentation_Handout.pdf"
+    video: ""
+    event: "https://www3.math.tu-berlin.de/numerik/CoSIPICDL2017/"
