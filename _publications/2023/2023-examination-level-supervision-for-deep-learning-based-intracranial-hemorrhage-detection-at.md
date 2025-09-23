@@ -13,4 +13,7 @@ authors:
 links:
   Paper: https://pubs.rsna.org/doi/full/10.1148/ryai.230159
   Press: https://www.microsoft.com/en-us/research/articles/weakly-supervised-learning-substantially-reduces-the-number-of-labels-required-for-intracranial-haemorrhage-detection-on-head-ct/
+topics:
+  - Biomedical Imaging
+  - ML Trustworthiness
 ---

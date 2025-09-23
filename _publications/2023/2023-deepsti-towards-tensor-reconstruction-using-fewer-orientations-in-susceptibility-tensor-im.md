@@ -14,4 +14,7 @@ authors:
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S1361841523000890
   Code: https://github.com/ZhenghanFang/DeepSTI-pytorch
+topics:
+  - Inverse Problems
+  - Biomedical Imaging
 ---
