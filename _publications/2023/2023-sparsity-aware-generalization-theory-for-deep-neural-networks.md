@@ -10,4 +10,7 @@ authors:
   - Jeremias Sulam
 links:
   Paper: https://proceedings.mlr.press/v195/muthukumar23a.html
+topics:
+  - Theory
+  - ML Trustworthiness
 ---
