@@ -13,6 +13,7 @@ authors:
   - J. Webster Stayman
   - Jeremias Sulam
 links:
+  Paper: https://link.springer.com/chapter/10.1007/978-3-032-05185-1_5
   Pre-print: https://arxiv.org/pdf/2503.00136
   Code: https://github.com/Sulam-Group/semantic_uq
 topics:
