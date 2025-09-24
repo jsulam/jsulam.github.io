@@ -22,6 +22,18 @@ navbar_title: Talks
         {% if t.location %} · {{ t.location }}{% endif %}
         {% if t.date %} · <span>{{ t.date | date: "%b %Y" }}</span>{% endif %}
       </div>
+      
+      {% if t.topics %}
+        <div class="talk-topics mt-1 mb-0 small">
+          {%- assign topics = t.topics -%}
+          {%- unless topics.first -%}{% assign topics = t.topics | split: ',' %}{%- endunless -%}
+          {%- for topic in topics -%}
+            {%- assign t_label = topic | strip -%}
+            {%- assign t_class = t_label | downcase | replace: ' ', '-' -%}
+            <span class="badge topic-{{ t_class }} mr-1">{{ t_label }}</span>
+          {%- endfor -%}
+        </div>
+      {% endif %}
 
       {% if t.links %}
         {% assign L = t.links %}
