@@ -6,6 +6,10 @@
     slides: "https://slides.com/jeremiassulam/icm-2025/fullscreen?token=s0wdAIrm"
     video: ""
     event: ""
+  topics:
+    - ML Interpretability
+    - Biomarker Discovery
+    - Biomedical Imaging
 
 - title: "Modern problems in trustworthy medical imaging"
   venue: "Medtronic"
@@ -15,6 +19,11 @@
     slides: "https://slides.com/jeremiassulam/medtronic2025/fullscreen"
     video: ""
     event: ""
+  topics:
+    - ML Trustworthiness
+    - Biomedical Imaging
+    - ML Interpretability
+
 
 - title: "Foundations of Interpretable AI with Shapley Values"
   venue: "CVPR 2025"
@@ -24,6 +33,10 @@
     slides: "https://slides.com/jeremiassulam/cvpr2025/fullscreen"
     video: ""
     event: ""
+  topics:
+    - ML Trustworthiness
+    - ML Interpretability
+  
 
 - title: "From data to insights: trustworthy methods for modern biomedical imaging"
   venue: "Penn ASSET Seminar"
@@ -33,6 +46,10 @@
     slides: "https://slides.com/jeremiassulam/penn2025/fullscreen"
     video: ""
     event: ""
+  topics:
+    - Inverse Problems
+    - Biomedical Imaging
+    - ML Trustworthiness
 
 - title: "Testing semantic importance via betting"
   venue: "IMS International Conference on Statistics and Data Science (ICSDS)"
@@ -42,6 +59,9 @@
     slides: "https://slides.com/jeremiassulam/icsds2024/fullscreen"
     video: ""
     event: ""
+  topics:
+    - ML Trustworthiness
+    - Theory
 
 - title: "What has my model learned?"
   venue: "University of Michigan, EE seminar series"
@@ -51,6 +71,10 @@
     slides: "https://slides.com/jeremiassulam/umich/fullscreen"
     video: ""
     event: ""
+  topics:
+    - ML Trustworthiness
+    - Inverse Problems
+    - Biomedical Imaging
 
 - title: "Yes, my network works! But.. what did it learn?"  
   venue: "Mathematics of Deep Learning, BIRS Casa Matemática Oaxaca"
@@ -60,6 +84,10 @@
     slides: ""
     video: "https://www.birs.ca/events/2024/5-day-workshops/24w5297/videos/watch/202406100900-Sulam.html"
     event: ""
+  topics:
+    - ML Trustworthiness
+    - Inverse Problems
+    - Theory
 
 - title: "Yes, my network works! But.. what did it learn?"  
   venue: "Mathematical and Scientific Foudnations of Deep Learning, Annual Meeting"
@@ -69,6 +97,10 @@
     slides: https://slides.com/jeremiassulam/simons2024/fullscreen
     video: https://www.simonsfoundation.org/video/jeremias-sulam-yay-my-deep-network-works-but-what-did-it-learn/
     event: https://www.simonsfoundation.org/event/mathematical-and-scientific-foundations-of-deep-learning-annual-meeting-2024/
+  topics:
+    - ML Trustworthiness
+    - Inverse Problems
+    - ML Interpretability
 
 - title: "Imaging, Data and Learning: Challenges in biomedical data science"
   venue: "Hariri Institute at Boston University"
@@ -78,6 +110,10 @@
     slides: ""
     video: "https://www.youtube.com/watch?ab_channel=HaririInstituteforComputing%2CBostonUniversity&v=JbC9d2c5Tbo"
     event: ""
+  topics:
+    - Biomedical Imaging
+    - ML Interpretability
+    - ML Trustworthiness
 
 - title: "Estimating and controlling for fairness via sensitive attribute predictors"
   venue: "MSRI (Berkeley)"
@@ -87,6 +123,9 @@
     slides: ""
     video: "https://player.vimeo.com/video/859591577"
     event: ""
+  topics:
+    - Biomedical Imaging
+    - ML Trustworthiness
 
 - title: "Understanding Deep Nets: Sparse Local Lipschitz functions and Learned Proximal Networks"
   venue: "SILO (UW–Madison) and TTIC (Chicago)"
@@ -96,6 +135,9 @@
     slides: "https://slides.com/jeremiassulam/theory_nn/fullscreen?token=t6mFtDuU"
     video: ""
     event: ""
+  topics:
+    - Theory
+    - ML Theory
 
 - title: "Modern Challenges in Biomedical Imaging"
   venue: "Annual symposium of IBBS, Hopkins"
@@ -105,6 +147,10 @@
     slides: "https://slides.com/jeremiassulam/challenges/fullscreen?token=KDYonZUK"
     video: ""
     event: ""
+  topics:
+    - Biomedical Imaging
+    - ML Interpretability
+    - ML Trustworthiness
 
 - title: "Controlling for fairness with proxy sensitive attributes"
   venue: "Workshop on Algorithms, Fairness and Equity at SLMath (MSRI)"
@@ -114,6 +160,8 @@
     slides: ""
     video: "https://player.vimeo.com/video/859591577"
     event: ""
+  topics:
+    - ML Trustworthiness
 
 - title: "Overparametrized and Robust Sparse Models"
   venue: "ICCHA 2022"
@@ -123,6 +171,9 @@
     slides: "https://drive.google.com/file/d/1UYnHTw7971G_HsejwyjpiZqsKl9PKwf8/view?usp=sharing"
     video: ""
     event: ""
+  topics:
+    - Theory
+    - ML Theory
 
 - title: "Responsible ML: Interpretable and fair machine learning models"
   venue: "sinc(i), Argentina"
@@ -132,6 +183,8 @@
     slides: "https://slides.com/jeremiassulam/deck-a0450e/fullscreen?token=OzXFtCHp"
     video: ""
     event: ""
+  topics:
+    - ML Trustworthiness
 
 - title: "Overparameterized and Adversarially Robust Sparse Models"
   venue: "JHU CS Seminar"
@@ -141,6 +194,9 @@
     slides: ""
     video: "https://www.youtube.com/watch?ab_channel=JohnsHopkinsWhitingSchoolofEngineering&v=7MxBvKiqA7c"
     event: ""
+  topics:
+    - Theory
+    - ML Theory
 
 - title: "Invited talk"
   venue: "Workshop: Integration of Deep Learning Theories (NeurIPS’18)"
