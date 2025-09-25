@@ -137,7 +137,7 @@
     event: ""
   topics:
     - Theory
-    - ML Theory
+    - ML Generalization
 
 - title: "Modern Challenges in Biomedical Imaging"
   venue: "Annual symposium of IBBS, Hopkins"
@@ -173,7 +173,7 @@
     event: ""
   topics:
     - Theory
-    - ML Theory
+    - ML Generalization
 
 - title: "Responsible ML: Interpretable and fair machine learning models"
   venue: "sinc(i), Argentina"
@@ -196,7 +196,7 @@
     event: ""
   topics:
     - Theory
-    - ML Theory
+    - ML Generalization
 
 - title: "Invited talk"
   venue: "Workshop: Integration of Deep Learning Theories (NeurIPS’18)"
