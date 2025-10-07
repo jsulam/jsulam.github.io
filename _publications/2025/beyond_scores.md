@@ -15,6 +15,7 @@ authors:
   - Jeremias Sulam
 links:
   Paper: https://arxiv.org/pdf/2507.08956
+  Code: https://github.com/ZhenghanFang/ProxDM
 topics:
   - Diffusion Models
   - Generative AI
