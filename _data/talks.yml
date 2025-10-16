@@ -4,7 +4,7 @@
   date: "2025-10-16"
   links:
     slides: "https://slides.com/jeremiassulam/bayes_pluri/fullscreen?token=p_EFOrKa"
-    video: "https://github.com/jsulam/inverse-problems-tutorial"
+    code: "https://github.com/jsulam/inverse-problems-tutorial"
   topics:
     - Inverse Problems
     - Biomedical Imaging
