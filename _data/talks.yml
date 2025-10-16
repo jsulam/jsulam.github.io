@@ -1,3 +1,16 @@
+- title: "Tutorial: Computational Inverse Problems"
+  venue: "Plurinational Bayes"
+  location: "Bogota, Colombia"
+  date: "2025-10-16"
+  links:
+    slides: "https://slides.com/jeremiassulam/bayes_pluri/fullscreen?token=p_EFOrKa"
+    demos: https://github.com/jsulam/inverse-problems-tutorial
+    video: ""
+    event: ""
+  topics:
+    - Inverse Problems
+    - Biomedical Imaging
+
 - title: "Machine learning interpretability to study biology?"
   venue: "Institute for Computational Medicine"
   location: "JHU"
