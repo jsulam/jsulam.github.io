@@ -1,3 +1,14 @@
+- title: "Foundations of Interpretable AI with Shapley Values"
+  venue: "ICCV 2025"
+  location: "Tutorial"
+  date: "2025-10-20"
+  links:
+    slides: "https://slides.com/jeremiassulam/cvpr2025/fullscreen"
+    event: "https://achatto1.github.io/Foundations-of-Interpretable-AI/"
+  topics:
+    - ML Trustworthiness
+    - ML Interpretability
+
 - title: "Tutorial: Computational Inverse Problems"
   venue: "Plurinational Bayes"
   location: "Bogota, Colombia"
