@@ -1,3 +1,14 @@
+- title: "Beyond Scores: Proximal Diffusion Models"
+  venue: "Physics of Learning Seminar"
+  location: "JHU"
+  date: "2025-11-05"
+  links:
+    slides: "https://slides.com/jeremiassulam/beyond-scores/fullscreen?token=AzoGSp-r"
+  topics:
+    - Diffusion Models
+    - Sampling
+    - Theory
+
 - title: "Foundations of Interpretable AI with Shapley Values"
   venue: "ICCV 2025"
   location: "Tutorial"
