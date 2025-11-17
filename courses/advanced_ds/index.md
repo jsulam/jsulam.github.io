@@ -43,5 +43,5 @@ title: EN.580.464/664 Advanced Data Science for Biomedical Engineering
   <p>
     The class combines lectures, hands-on exercises, and group discussions. Lectures are once a week, 2.5 hrs (with a break). TA session once a week complements the topics covered in the lectures and facilitates weekly (mandatory) quizzes. A small number of coding exercises are due through the first part of the semester, and a sizeable, research-like project (in small groups) is due at the of the semester.
   </p>
-  <p class="mb-0"><em>Evaluation:</em> Quizzes 40% · Project presentation 40% · Coding assignments 20% · Participation (bonusu) 10% ·</p>
+  <p class="mb-0"><em>Evaluation:</em> Quizzes 40% · Project presentation 40% · Coding assignments 20% · Participation (bonus) 10% ·</p>
 </div>
