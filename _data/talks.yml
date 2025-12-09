@@ -4,6 +4,7 @@
   date: "2025-12-10"
   links:
     slides: "https://slides.com/jeremiassulam/bogota2025/fullscreen?token=luNRaBC8"
+    event: "https://stats-workshop.github.io"
   topics:
     - Diffusion Models
     - Sampling
