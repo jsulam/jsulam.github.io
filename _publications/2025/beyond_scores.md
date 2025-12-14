@@ -2,7 +2,7 @@
 title:          "Beyond Scores: Proximal Diffusion Models"
 date:           2025-12-1
 selected:       true
-pub:            "Neurips 2025 (to appear)"
+pub:            "Neurips 2025"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       
@@ -14,7 +14,7 @@ authors:
   - Sam Buchanan
   - Jeremias Sulam
 links:
-  Paper: https://arxiv.org/pdf/2507.08956
+  Paper: https://openreview.net/pdf/fd9b3513b50afa3df20c4fdd81a656573fa4c3f8.pdf
   Code: https://github.com/ZhenghanFang/ProxDM
 topics:
   - Diffusion Models
