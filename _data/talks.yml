@@ -1,3 +1,15 @@
+- title: "Beyond Scores in Diffusion Models"
+  venue: "Joint Mathematics Meeting (JMM), Session on Mathematics of Deep Neural Networks
+  location: "Washington DC"
+  date: "2026-1-6"
+  links:
+    slides: "https://slides.com/jeremiassulam/beyond-scores-bogota/fullscreen"
+    event: "https://meetings.ams.org/math/jmm2026/meetingapp.cgi/Session/13823"
+  topics:
+    - Diffusion Models
+    - Sampling
+    - Theory
+
 - title: "On Proximal Diffusion Models"
   venue: "Statistics and Data Science Workshop"
   location: "Universidad de los Andes, Bogotá"
