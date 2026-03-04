@@ -1,4 +1,26 @@
 - title: "Beyond Scores in Diffusion Models"
+  venue: "Mathematics of Machine Learning Seminar -- University of Pittsburth"
+  location: "Pittsburth, PA"
+  date: "2026-3-04"
+  links:
+    slides: "https://slides.com/jeremiassulam/proxdm_pitt"
+  topics:
+    - Diffusion Models
+    - Sampling
+    - Theory
+    
+- title: "Testing Semantic Interpretability via Betting"
+  venue: "EnCORE Workshop on Interpretability in Modern AI - Foundations, Methods, and Emerging Directions"
+  location: "San Diego"
+  date: "2026-2-26"
+  links:
+    slides: "https://slides.com/jeremiassulam/ucsd2026"
+    event: "https://trustworthy-ai-workshop.github.io/encore-2026/"
+  topics:
+    - ML Trustworthiness
+    - ML Interpretability
+
+- title: "Beyond Scores in Diffusion Models"
   venue: "Joint Mathematics Meeting (JMM), Session on Mathematics of Deep Neural Networks"
   location: "Washington DC"
   date: "2026-1-6"
