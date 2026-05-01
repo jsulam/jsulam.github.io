@@ -4,7 +4,7 @@ date:           2026-05-11
 selected:       false
 pub:            "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)."
 pub_date:       "2026"
-cover:          /assets/images/papers/EquiLPN.png
+cover:          /assets/images/papers/Equi_LPN.png
 authors:
   - Oriel Savir
   - Zhenghan Fang
