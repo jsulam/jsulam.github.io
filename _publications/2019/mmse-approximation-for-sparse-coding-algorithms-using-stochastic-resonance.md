@@ -1,5 +1,5 @@
 ---
-title:          "Improving Pursuit Algorithms Using Stochastic Resonance"
+title:          "MMSE Approximation for Sparse Coding Algorithms Using Stochastic Resonance"
 date:           2019-01-01
 selected:       false
 pub:            "IEEE Transactions on Signal Processing"
@@ -8,7 +8,7 @@ authors:
   - Dror Simon
   - Jeremias Sulam
   - Yaniv Romano
-  - Yue Lue
+  - Yue M. Lu
   - Michael Elad
 links:
   Paper: https://ieeexplore.ieee.org/document/8770153
