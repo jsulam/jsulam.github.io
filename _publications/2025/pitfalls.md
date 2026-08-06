@@ -9,7 +9,7 @@ pub_last:
 pub_date:       "2025"
 cover:        "https://pubs.rsna.org/cms/10.1148/radiol.241674/asset/images/medium/radiol.241674.fig4.gif"
 authors:
-  - Paul H. Yi,
+  - Paul H. Yi
   - Preetham Bachina
   - Beepul Bharti
   - Sean P. Garin

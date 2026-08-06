@@ -13,6 +13,7 @@ links:
   Paper: https://arxiv.org/pdf/2604.15556
 topics:
   - Inverse Problems
-  - Equivant Theory
+  - Equivariance
+  - Theory
   - Biomedical Imaging
 ---
