@@ -11,7 +11,8 @@ authors:
   - Yue Lue
   - Michael Elad
 links:
-  Paper: Improving Pursuit Algorithms Using Stochastic Resonance
+  Paper: https://ieeexplore.ieee.org/document/8770153
+  Pre-print: https://arxiv.org/abs/1806.10171
 topics:
   - Sparse Coding
   - Inverse Problems
