@@ -1,3 +1,15 @@
+- title: "Learned Proximal Operators: from Denoising to Sampling"
+  venue: "IEEE SPS Computational Imaging Technical Committee Webinar"
+  location: "Online"
+  date: "2026-8-6"
+  links:
+    slides: "https://slides.com/jeremiassulam/beyond-scores-focm/fullscreen"
+    event: "https://landing.signalprocessingsociety.org/ieee-sps-webinars-06-aug-2026"
+  topics:
+    - Inverse Problems
+    - Diffusion Models
+    - Theory
+
 - title: "Flexible methods for uncertainty quantification in medical imaging"
   venue: "12th CVPR Workshop on Medical Computer Vision"
   location: "Denver, CO"
@@ -31,8 +43,8 @@
     - Theory
     
 - title: "Beyond Scores in Diffusion Models"
-  venue: "Mathematics of Machine Learning Seminar -- University of Pittsburth"
-  location: "Pittsburth, PA"
+  venue: "Mathematics of Machine Learning Seminar -- University of Pittsburgh"
+  location: "Pittsburgh, PA"
   date: "2026-3-04"
   links:
     slides: "https://slides.com/jeremiassulam/proxdm_pitt"
