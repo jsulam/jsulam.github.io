@@ -241,18 +241,6 @@
     - ML Interpretability
     - ML Trustworthiness
 
-- title: "Estimating and controlling for fairness via sensitive attribute predictors"
-  venue: "MSRI (Berkeley)"
-  location: "Berkeley, CA"
-  date: "2023-08-01"
-  links:
-    slides: ""
-    video: "https://player.vimeo.com/video/859591577"
-    event: ""
-  topics:
-    - Biomedical Imaging
-    - ML Trustworthiness
-
 - title: "Understanding Deep Nets: Sparse Local Lipschitz functions and Learned Proximal Networks"
   venue: "SILO (UW–Madison) and TTIC (Chicago)"
   location: "Madison, WI; Chicago, IL"
