@@ -1,4 +1,108 @@
 @charset "utf-8";
+
+/* ===================== Theme variables =====================
+   Light values are the site's original colours. Dark mode is
+   opt-in via [data-theme="dark"] on <html>. Every surface,
+   text and border colour below flows from these. */
+:root {
+    --bg: #f8f9fa;
+    --surface: #ffffff;
+    --text: #212529;
+    --muted: #6b7280;
+    --muted-strong: #4b5563;
+    --border: #e5e7eb;
+    --border-strong: #d1d5db;
+    --hover: #f3f4f6;
+    --navbar-bg: #f8f9fa;
+    --link: #0d6efd;
+    --shadow-rgb: 0, 0, 0;
+    --card-scrim: rgba(255, 255, 255, 0.9);
+    --logo-chip: transparent;
+    --cover-filter: none;
+}
+
+html[data-theme="dark"] {
+    --bg: #14171c;
+    --surface: #1c2027;
+    --text: #e6e8eb;
+    --muted: #9aa4b2;
+    --muted-strong: #b6bec9;
+    --border: #2b313a;
+    --border-strong: #39414d;
+    --hover: #242a33;
+    --navbar-bg: #1c2027;
+    --link: #6ea8fe;
+    --shadow-rgb: 0, 0, 0;
+    --card-scrim: rgba(28, 32, 39, 0.92);
+    --logo-chip: #f2f4f7;
+    --cover-filter: brightness(.88) contrast(1.03);
+}
+
+body {
+    background-color: var(--bg) !important;
+    color: var(--text);
+    transition: background-color .18s ease, color .18s ease;
+}
+
+/* Bootstrap 4 has no dark mode, so rather than editing the ~29
+   utility-class call sites in the templates, retint the utilities. */
+.bg-light   { background-color: var(--navbar-bg) !important; }
+.bg-white   { background-color: var(--surface) !important; }
+.text-muted { color: var(--muted) !important; }
+.card, .rounded-xl { background-color: var(--surface); color: var(--text); }
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link { color: var(--text); }
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link { color: var(--link); }
+a { color: var(--link); }
+hr { border-top-color: var(--border); }
+.shadow-sm { box-shadow: 0 .125rem .25rem rgba(var(--shadow-rgb), .12) !important; }
+.text-body { color: var(--text) !important; }
+.border, .border-top, .border-bottom,
+.border-left, .border-right { border-color: var(--border) !important; }
+mark { background-color: color-mix(in srgb, var(--link) 18%, transparent); color: var(--text); }
+
+/* Mobile publication and course cards lay a scrim over the cover image;
+   it was a hardcoded near-white, which stayed white in dark mode. */
+.card-scrim { background-color: var(--card-scrim); }
+
+/* Institution logos are dark ink on transparent backgrounds, so they
+   disappear on a dark page. Give them a light chip to sit on. */
+html[data-theme="dark"] .profile-logo,
+html[data-theme="dark"] .badge-logo {
+    background: var(--logo-chip);
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+html[data-theme="dark"] .edu-logo {
+    background: var(--logo-chip);
+    border-radius: 3px;
+    padding: 2px;
+    box-sizing: content-box;
+}
+
+/* Publication covers are figures with white backgrounds, which glare
+   against a dark page. Ease them back slightly and frame them; full
+   fidelity returns on hover. */
+.pub-cover {
+    filter: var(--cover-filter);
+    border: 1px solid var(--border);
+    transition: filter .18s ease;
+}
+.pub-cover:hover { filter: none; }
+
+/* Theme toggle button */
+#theme-toggle {
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font-size: 1.05rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: .25rem .5rem;
+}
+#theme-toggle:hover { color: var(--link); }
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -99,47 +203,56 @@ div.lazy {
     width: auto !important;
 }
 
-.badge { border: 1px solid #ddd; /*background: #f8f9fa; */ } /* optional base */
-.badge[class*="topic-"] { border: 1px solid #ddd; }
+.badge { border: 1px solid var(--border); }
+.badge[class*="topic-"] {
+    border: 1px solid var(--border);
+    background: color-mix(in srgb, var(--t, #6b7280) 14%, #ffffff);
+    color: var(--t, #6b7280);
+    font-weight: 500;
+}
+html[data-theme="dark"] .badge[class*="topic-"] {
+    background: color-mix(in srgb, var(--t, #6b7280) 24%, #14171c);
+    color: color-mix(in srgb, var(--t, #6b7280) 45%, #ffffff);
+}
 
-.badge.topic-ml-interpretability   { background: #e0f7fa; color: #006064; }  /* teal */
-.badge.topic-inverse-problems       { background: #fce4ec; color: #880e4f; }  /* magenta */
-.badge.topic-protein-folding     { background: #e3f2fd; color: #0d47a1; }  /* blue */
-.badge.topic-theory             { background: #f3e5f5; color: #4a148c; }  /* purple */
-.badge.topic-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
-.badge.topic-sparse-coding            { background: #e8f5e9; color: #1b5e20; }  /* green */
-.badge.topic-biomedical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green */
-.badge.topic-digital-pathology   { background: #fff3e0; color: #e65100; }  /* orange */
-.badge.topic-biomarker-discovery { background: #e8eaf6; color: #1a237e; }  /* soft indigo (example) */
-.badge.topic-generative-ai  { background: #ede7f6; color: #311b92; }  /* deep indigo */
-.badge.topic-diffusion-models          { background: #e3f2fd; color: #0d47a1; }  /* blue */
-.badge.topic-ml-robustness          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
-.badge.topic-ml-trustworthiness         { background: #f1f8e9; color: #33691e; }  /* dark green */
-.badge.topic-ml-generalization       { background: #fce4ec; color: #880e4f; }  /* magenta */
-.badge.topic-medical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green, matches biomedical imaging */
-.badge.topic-neuroscience               { background: #f9fbe7; color: #827717; }  /* lime */
-.badge.topic-sampling                   { background: #e1f5fe; color: #01579b; }  /* light blue, near diffusion models */
-.badge.topic-uncertainty-quantification { background: #e0f2f1; color: #004d40; }  /* deep teal */
-.badge.topic-equivariance               { background: #ede7f6; color: #4527a0; }  /* deep purple, theory-adjacent */
-.badge.topic-neural-networks            { background: #e8eaf6; color: #283593; }  /* indigo */
-.badge.topic-signal-processing          { background: #e0f7fa; color: #00838f; }  /* cyan */
-.badge.topic-ekg                        { background: #fff0f3; color: #ad1457; }  /* pink */
-/* add more as needed */
+.topic-ml-interpretability        { --t: #006064; }
+.topic-inverse-problems           { --t: #880e4f; }
+.topic-protein-folding            { --t: #0d47a1; }
+.topic-theory                     { --t: #4a148c; }
+.topic-imaging                    { --t: #1b5e20; }
+.topic-sparse-coding              { --t: #1b5e20; }
+.topic-biomedical-imaging         { --t: #1b5e20; }
+.topic-digital-pathology          { --t: #e65100; }
+.topic-biomarker-discovery        { --t: #1a237e; }
+.topic-generative-ai              { --t: #311b92; }
+.topic-diffusion-models           { --t: #0d47a1; }
+.topic-ml-robustness              { --t: #bf360c; }
+.topic-ml-trustworthiness         { --t: #33691e; }
+.topic-ml-generalization          { --t: #880e4f; }
+.topic-medical-imaging            { --t: #1b5e20; }
+.topic-neuroscience               { --t: #827717; }
+.topic-sampling                   { --t: #01579b; }
+.topic-uncertainty-quantification { --t: #004d40; }
+.topic-equivariance               { --t: #4527a0; }
+.topic-neural-networks            { --t: #283593; }
+.topic-signal-processing          { --t: #00838f; }
+.topic-ekg                        { --t: #ad1457; }
+/* new tags only need a --t hue; both themes follow automatically */
 
 
 /* assets/css/talks.css */
 .talks-year {
     margin-top: 2.2rem;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid var(--border);
     padding-top: 1.2rem;
   }
   
   .talk-card {
     padding: 0.9rem 1rem;
-    border: 1px solid #e5e7eb;
+    border: 1px solid var(--border);
     border-radius: 10px;
     margin: 0.6rem 0 0.9rem;
-    background: #fff;
+    background: var(--surface);
   }
   
   .talk-title {
@@ -149,14 +262,14 @@ div.lazy {
   }
   
   .talk-meta {
-    color: #6b7280; /* gray-500 */
+    color: var(--muted);
     font-size: 0.95rem;
     margin-bottom: 0.35rem;
   }
   
   .talk-actions a {
     display: inline-block;
-    border: 1px solid #d1d5db;
+    border: 1px solid var(--border-strong);
     padding: 0.22rem 0.55rem;
     border-radius: 9999px; /* pill */
     font-size: 0.85rem;
@@ -165,11 +278,11 @@ div.lazy {
   }
   
   .talk-actions a:hover {
-    background: #f3f4f6;
-    border-color: #cbd5e1;
+    background: var(--hover);
+    border-color: var(--border-strong);
   }
   
   .talks-intro {
     margin-bottom: 1rem;
-    color: #4b5563; /* gray-600 */
+    color: var(--muted-strong);
   }
