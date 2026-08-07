@@ -38,7 +38,7 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
-})
+});
 
 // Light / dark theme toggle. The initial value is set in <head> before
 // first paint; this only handles switching and persistence.
