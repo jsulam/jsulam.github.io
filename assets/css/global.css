@@ -16,6 +16,7 @@
     --navbar-bg: #f8f9fa;
     --link: #0d6efd;
     --shadow-rgb: 0, 0, 0;
+    --card-scrim: rgba(255, 255, 255, 0.9);
 }
 
 html[data-theme="dark"] {
@@ -30,6 +31,7 @@ html[data-theme="dark"] {
     --navbar-bg: #1c2027;
     --link: #6ea8fe;
     --shadow-rgb: 0, 0, 0;
+    --card-scrim: rgba(28, 32, 39, 0.92);
 }
 
 body {
@@ -51,6 +53,14 @@ body {
 a { color: var(--link); }
 hr { border-top-color: var(--border); }
 .shadow-sm { box-shadow: 0 .125rem .25rem rgba(var(--shadow-rgb), .12) !important; }
+.text-body { color: var(--text) !important; }
+.border, .border-top, .border-bottom,
+.border-left, .border-right { border-color: var(--border) !important; }
+mark { background-color: color-mix(in srgb, var(--link) 18%, transparent); color: var(--text); }
+
+/* Mobile publication and course cards lay a scrim over the cover image;
+   it was a hardcoded near-white, which stayed white in dark mode. */
+.card-scrim { background-color: var(--card-scrim); }
 
 /* Institution logos are dark ink on transparent backgrounds, so they
    disappear on a dark page. Give them a light chip to sit on. */
