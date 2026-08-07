@@ -54,6 +54,23 @@ body {
 .navbar-light .navbar-nav .nav-link { color: var(--text); }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .active > .nav-link { color: var(--link); }
+.navbar-light .navbar-toggler {
+    color: var(--text);
+    border-color: var(--border-strong);
+}
+.navbar-light .navbar-text { color: var(--muted); }
+
+/* Other Bootstrap components used in the templates that carry
+   hardcoded light-mode colours. */
+.nav-pills .nav-link { color: var(--text); }
+.nav-pills .nav-link.active { color: #fff; }
+.btn-outline-primary,
+.btn-outline-secondary { color: var(--link); border-color: var(--border-strong); }
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover { color: #fff; }
+.modal-content { background-color: var(--surface); color: var(--text); }
+.alert { border-color: var(--border); }
+.close { color: var(--text); text-shadow: none; }
 a { color: var(--link); }
 hr { border-top-color: var(--border); }
 .shadow-sm { box-shadow: 0 .125rem .25rem rgba(var(--shadow-rgb), .12) !important; }
