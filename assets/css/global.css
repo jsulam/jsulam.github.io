@@ -17,6 +17,8 @@
     --link: #0d6efd;
     --shadow-rgb: 0, 0, 0;
     --card-scrim: rgba(255, 255, 255, 0.9);
+    --logo-chip: transparent;
+    --cover-filter: none;
 }
 
 html[data-theme="dark"] {
@@ -32,6 +34,8 @@ html[data-theme="dark"] {
     --link: #6ea8fe;
     --shadow-rgb: 0, 0, 0;
     --card-scrim: rgba(28, 32, 39, 0.92);
+    --logo-chip: #f2f4f7;
+    --cover-filter: brightness(.88) contrast(1.03);
 }
 
 body {
@@ -66,10 +70,20 @@ mark { background-color: color-mix(in srgb, var(--link) 18%, transparent); color
    disappear on a dark page. Give them a light chip to sit on. */
 html[data-theme="dark"] .profile-logo,
 html[data-theme="dark"] .badge-logo {
-    background: var(--surface);
-    border-radius: 4px;
-    padding: 2px 4px;
+    background: var(--logo-chip);
+    border-radius: 5px;
+    padding: 3px 5px;
 }
+
+/* Publication covers are figures with white backgrounds, which glare
+   against a dark page. Ease them back slightly and frame them; full
+   fidelity returns on hover. */
+.pub-cover {
+    filter: var(--cover-filter);
+    border: 1px solid var(--border);
+    transition: filter .18s ease;
+}
+.pub-cover:hover { filter: none; }
 
 /* Theme toggle button */
 #theme-toggle {
