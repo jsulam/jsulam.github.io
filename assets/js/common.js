@@ -39,3 +39,32 @@ $(function () {
         $grid.masonry('layout');
     });
 })
+
+// Light / dark theme toggle. The initial value is set in <head> before
+// first paint; this only handles switching and persistence.
+(function () {
+    var root = document.documentElement;
+
+    function syncIcon(theme) {
+        var icon = document.querySelector('#theme-toggle i');
+        if (icon) {
+            icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+    }
+
+    function setTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        try { localStorage.setItem('theme', theme); } catch (e) {}
+        syncIcon(theme);
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        syncIcon(root.getAttribute('data-theme'));
+        var btn = document.getElementById('theme-toggle');
+        if (btn) {
+            btn.addEventListener('click', function () {
+                setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+            });
+        }
+    });
+})();
