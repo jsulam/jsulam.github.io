@@ -116,6 +116,14 @@ div.lazy {
 .badge.topic-ml-robustness          { background: #fbe9e7; color: #bf360c; }  /* burnt orange */
 .badge.topic-ml-trustworthiness         { background: #f1f8e9; color: #33691e; }  /* dark green */
 .badge.topic-ml-generalization       { background: #fce4ec; color: #880e4f; }  /* magenta */
+.badge.topic-medical-imaging            { background: #e8f5e9; color: #1b5e20; }  /* green, matches biomedical imaging */
+.badge.topic-neuroscience               { background: #f9fbe7; color: #827717; }  /* lime */
+.badge.topic-sampling                   { background: #e1f5fe; color: #01579b; }  /* light blue, near diffusion models */
+.badge.topic-uncertainty-quantification { background: #e0f2f1; color: #004d40; }  /* deep teal */
+.badge.topic-equivariance               { background: #ede7f6; color: #4527a0; }  /* deep purple, theory-adjacent */
+.badge.topic-neural-networks            { background: #e8eaf6; color: #283593; }  /* indigo */
+.badge.topic-signal-processing          { background: #e0f7fa; color: #00838f; }  /* cyan */
+.badge.topic-ekg                        { background: #fff0f3; color: #ad1457; }  /* pink */
 /* add more as needed */
 
 
