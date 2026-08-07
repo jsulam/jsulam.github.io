@@ -74,6 +74,12 @@ html[data-theme="dark"] .badge-logo {
     border-radius: 5px;
     padding: 3px 5px;
 }
+html[data-theme="dark"] .edu-logo {
+    background: var(--logo-chip);
+    border-radius: 3px;
+    padding: 2px;
+    box-sizing: content-box;
+}
 
 /* Publication covers are figures with white backgrounds, which glare
    against a dark page. Ease them back slightly and frame them; full
