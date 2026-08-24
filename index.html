@@ -21,9 +21,14 @@ navbar_title: Home
 {% endif %}
 
 {% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-    {% 
-        include widgets/publication_card.html 
+    {% assign proxdm = site.publications | where_exp: "item", "item.path contains 'beyond_scores'" | first %}
+    {% assign oligo = site.publications | where_exp: "item", "item.path contains 'brain-wide-oligodendrocyte-mapping'" | first %}
+    {% assign rest = site.publications | sort: "date" | reverse | where: "selected", true %}
+    {% assign rest = rest | where_exp: "item", "item.path != proxdm.path" %}
+    {% assign rest = rest | where_exp: "item", "item.path != oligo.path" %}
+    {% assign pubs = "" | split: "" | push: proxdm | push: oligo | concat: rest %}
+    {%
+        include widgets/publication_card.html
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
