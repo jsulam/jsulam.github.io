@@ -5,6 +5,7 @@ navbar_name: "J. Sulam"
 positions:
 - logo: /assets/images/badges/JHU_logo.png  # Logo is optional
   name: "<b>Associate Professor</b> and <b>William R. Brody Faculty Scholar</b>, Johns Hopkins University"
+- name: "<b>Deputy Director for Research</b>, Data Science and AI Institute (DSAI)"
 # - name: Position 2 without logo
 
 email:
