@@ -1,3 +1,15 @@
+- title: "Beyond Scores: Proximal Diffusion Models"
+  venue: "SCML2026 -- International Conference on Scientific Computing and Machine Learning"
+  location: "University of Bath, UK"
+  date: "2026-9-17"
+  links:
+    slides: "https://slides.com/jeremiassulam/m4dl"
+    event: "https://scml.jp"
+  topics:
+    - Diffusion Models
+    - Sampling
+    - Theory
+
 - title: "Learned Proximal Operators: from Denoising to Sampling"
   venue: "IEEE SPS Computational Imaging Technical Committee Webinar"
   location: "Online"
