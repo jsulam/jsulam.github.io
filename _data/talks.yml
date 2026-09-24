@@ -1,3 +1,15 @@
+- title: "Modern problems in Biomedical Imaging"
+  venue: "2026 Joint Workshop on MR Phase, Magnetic Susceptibility and Electrical Properties Mapping (EMTP)"
+  location: "Annapolis, MD"
+  date: "2026-9-23"
+  links:
+    slides: "https://slides.com/jeremiassulam/empt2026/fullscreen"
+    event: "https://www.emtp2026.org"
+  topics:
+    - Biomedical Imaging
+    - Inverse Problems
+    - ML Trustworthiness
+
 - title: "Beyond Scores: Proximal Diffusion Models"
   venue: "SCML2026 -- International Conference on Scientific Computing and Machine Learning"
   location: "University of Bath, UK"
