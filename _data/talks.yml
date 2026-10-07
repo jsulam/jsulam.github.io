@@ -1,3 +1,16 @@
+- title: "Sequential Statistical Methods for Reliable Machine Learning"
+  venue: "Workshop on Trustworthy AI: From Hallucinations to Reliable Autonomy"
+  location: "Simons Institute for the Theory of Computing, UC Berkeley"
+  date: "2026-10-6"
+  links:
+    slides: "https://jsulam-auditing-simons2026.share.connect.posit.cloud/"
+    video: "https://youtube.com/live/j3Qumv16vk0"
+    event: "https://simons.berkeley.edu/talks/jeremias-sulam-johns-hopkins-university-2026-10-06"
+  topics:
+    - ML Trustworthiness
+    - Uncertainty Quantification
+    - Theory
+
 - title: "Modern problems in Biomedical Imaging"
   venue: "2026 Joint Workshop on MR Phase, Magnetic Susceptibility and Electrical Properties Mapping (EMTP)"
   location: "Annapolis, MD"
