@@ -1,9 +1,9 @@
 - title: "Sequential Statistical Methods for Reliable Machine Learning"
   venue: "Workshop on Trustworthy AI: From Hallucinations to Reliable Autonomy"
   location: "Simons Institute for the Theory of Computing, UC Berkeley"
-  date: "2026-10-6"
+  date: "2026-10-06"
   links:
-    slides: "https://jsulam-auditing-simons2026.share.connect.posit.cloud/"
+    slides: "/assets/slides/simons2026/"
     video: "https://youtube.com/live/j3Qumv16vk0"
     event: "https://simons.berkeley.edu/talks/jeremias-sulam-johns-hopkins-university-2026-10-06"
   topics:
@@ -14,7 +14,7 @@
 - title: "Modern problems in Biomedical Imaging"
   venue: "2026 Joint Workshop on MR Phase, Magnetic Susceptibility and Electrical Properties Mapping (EMTP)"
   location: "Annapolis, MD"
-  date: "2026-9-23"
+  date: "2026-09-23"
   links:
     slides: "https://slides.com/jeremiassulam/empt2026/fullscreen"
     event: "https://www.emtp2026.org"
@@ -26,7 +26,7 @@
 - title: "Beyond Scores: Proximal Diffusion Models"
   venue: "SCML2026 -- International Conference on Scientific Computing and Machine Learning"
   location: "University of Bath, UK"
-  date: "2026-9-17"
+  date: "2026-09-17"
   links:
     slides: "https://slides.com/jeremiassulam/m4dl"
     event: "https://scml.jp"
@@ -38,7 +38,7 @@
 - title: "Learned Proximal Operators: from Denoising to Sampling"
   venue: "IEEE SPS Computational Imaging Technical Committee Webinar"
   location: "Online"
-  date: "2026-8-6"
+  date: "2026-08-06"
   links:
     slides: "https://slides.com/jeremiassulam/beyond-scores-focm/fullscreen"
     event: "https://landing.signalprocessingsociety.org/ieee-sps-webinars-06-aug-2026"
@@ -51,7 +51,7 @@
 - title: "Flexible methods for uncertainty quantification in medical imaging"
   venue: "12th CVPR Workshop on Medical Computer Vision"
   location: "Denver, CO"
-  date: "2026-6-3"
+  date: "2026-06-03"
   links:
     slides: "https://slides.com/jeremiassulam/cvpr2026/fullscreen"
   topics:
@@ -62,7 +62,7 @@
 - title: "Modern problems in trustworthy medical imaging"
   venue: "BMES MidAtlantic Research Day"
   location: "University of Maryland, College Park"
-  date: "2026-4-18"
+  date: "2026-04-18"
   links:
     slides: "https://slides.com/jeremiassulam/mard2026/fullscreen"
   topics:
@@ -72,7 +72,7 @@
 - title: "Beyond Scores in Diffusion Models"
   venue: "Machine Learning Seminar -- Flatiron Institute"
   location: "NY"
-  date: "2026-4-14"
+  date: "2026-04-14"
   links:
     slides: "https://slides.com/jeremiassulam/flatiron2026/fullscreen"
   topics:
@@ -83,7 +83,7 @@
 - title: "Beyond Scores in Diffusion Models"
   venue: "Mathematics of Machine Learning Seminar -- University of Pittsburgh"
   location: "Pittsburgh, PA"
-  date: "2026-3-04"
+  date: "2026-03-04"
   links:
     slides: "https://slides.com/jeremiassulam/proxdm_pitt"
   topics:
@@ -94,7 +94,7 @@
 - title: "Testing Semantic Interpretability via Betting"
   venue: "EnCORE Workshop on Interpretability in Modern AI - Foundations, Methods, and Emerging Directions"
   location: "San Diego"
-  date: "2026-2-26"
+  date: "2026-02-26"
   links:
     slides: "https://slides.com/jeremiassulam/ucsd2026"
     event: "https://trustworthy-ai-workshop.github.io/encore-2026/"
@@ -105,7 +105,7 @@
 - title: "Beyond Scores in Diffusion Models"
   venue: "Joint Mathematics Meeting (JMM), Session on Mathematics of Deep Neural Networks"
   location: "Washington DC"
-  date: "2026-1-6"
+  date: "2026-01-06"
   links:
     slides: "https://slides.com/jeremiassulam/beyond-scores-bogota/fullscreen"
     event: "https://meetings.ams.org/math/jmm2026/meetingapp.cgi/Session/13823"
