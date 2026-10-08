@@ -1,3 +1,15 @@
+- title: "Beyond Scores: Proximal Diffusion Models"
+  venue: "Workshop on Statistical Foundations of Generative Modeling, IMSI"
+  location: "Chicago, IL"
+  date: "2026-10-08"
+  links:
+    slides: "https://slides.com/jeremiassulam/beyond-scores-scml/fullscreen"
+    event: "https://www.imsi.institute/activities/statistical-foundations-of-generative-modeling/"
+  topics:
+    - Diffusion Models
+    - Sampling
+    - Theory
+
 - title: "Sequential Statistical Methods for Reliable Machine Learning"
   venue: "Workshop on Trustworthy AI: From Hallucinations to Reliable Autonomy"
   location: "Simons Institute for the Theory of Computing, UC Berkeley"
