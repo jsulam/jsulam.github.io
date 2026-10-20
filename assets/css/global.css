@@ -121,13 +121,14 @@ html[data-theme="dark"] .edu-logo {
 #theme-toggle:hover { color: var(--link); }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Lora", Georgia, serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Fraunces", Georgia, serif;
     font-weight: 700;
 }
 
