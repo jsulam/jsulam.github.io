@@ -85,6 +85,20 @@ mark { background-color: color-mix(in srgb, var(--link) 18%, transparent); color
 
 /* Institution logos are dark ink on transparent backgrounds, so they
    disappear on a dark page. Give them a light chip to sit on. */
+html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3,
+html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
+html[data-theme="dark"] .h1, html[data-theme="dark"] .h2, html[data-theme="dark"] .h3,
+html[data-theme="dark"] .h4, html[data-theme="dark"] .h5, html[data-theme="dark"] .h6 {
+    font-weight: 600;
+    color: #dde2ea;
+}
+
+html[data-theme="dark"] strong,
+html[data-theme="dark"] b {
+    font-weight: 500;
+    color: #d5dbe3;
+}
+
 html[data-theme="dark"] .profile-logo,
 html[data-theme="dark"] .badge-logo {
     background: var(--logo-chip);
