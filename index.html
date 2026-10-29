@@ -25,8 +25,10 @@ navbar_title: Home
     {% assign oligo = site.publications | where_exp: "item", "item.path contains 'brain-wide-oligodendrocyte-mapping'" | first %}
     {% assign rest = site.publications | sort: "date" | reverse | where: "selected", true %}
     {% assign rest = rest | where_exp: "item", "item.path != proxdm.path" %}
+    {% assign review = site.publications | where_exp: "item", "item.path contains 'interpreting-interpretable-ai-digital-pathology'" | first %}
     {% assign rest = rest | where_exp: "item", "item.path != oligo.path" %}
-    {% assign pubs = "" | split: "" | push: proxdm | push: oligo | concat: rest %}
+    {% assign rest = rest | where_exp: "item", "item.path != review.path" %}
+    {% assign pubs = "" | split: "" | push: proxdm | push: oligo | push: review | concat: rest %}
     {%
         include widgets/publication_card.html
         publications=pubs
