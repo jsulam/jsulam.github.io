@@ -8,7 +8,7 @@ pub:            "Patterns: Cell Press"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Cover feature</span>'
 pub_date:       "2025"
 
-cover: https://www.cell.com/cms/asset/atypon:cms:attachment:img:d466e6:rev:1743652751731-24379:pii:S2666389924X00070/cover.tif.jpg
+cover: /assets/images/papers/bi_graph_cover.webp
 authors:
   - Zhenzhen Wang
   - Cesar A. Santa-Maria
