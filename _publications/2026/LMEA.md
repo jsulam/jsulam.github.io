@@ -4,6 +4,7 @@ date:           2026-06-03
 selected:       false
 pub:            "Transactions on Machine Learning Research (TMLR)"
 pub_date:       "2026"
+cover:          /assets/images/papers/lmea_cover.png
 authors:
   - Ryan Pilgrim
   - Beepul Bharti
