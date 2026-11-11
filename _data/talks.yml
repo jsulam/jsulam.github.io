@@ -1,3 +1,14 @@
+- title: "Predicción Conformal: Cómo construir predictores con incertidumbre"
+  venue: "2da Escuela de Primavera en Deep Learning"
+  location: "Buenos Aires, Argentina"
+  date: "2026-11-12"
+  links:
+    slides: "https://connect.posit.cloud/jsulam/content/01a1c749-eaa6-b185-1736-d8f7f1f4b798"
+    event: "https://primavera-dl.github.io/"
+  topics:
+    - ML Trustworthiness
+    - Uncertainty Quantification
+
 - title: "Beyond Scores: Proximal Diffusion Models"
   venue: "Workshop on Statistical Foundations of Generative Modeling, IMSI"
   location: "Chicago, IL"
