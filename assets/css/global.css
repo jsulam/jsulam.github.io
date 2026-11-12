@@ -47,6 +47,8 @@ body {
 /* Bootstrap 4 has no dark mode, so rather than editing the ~29
    utility-class call sites in the templates, retint the utilities. */
 .bg-light   { background-color: var(--navbar-bg) !important; }
+/* <body> also carries .bg-light; keep it on the page colour so cards stand out in dark mode too */
+body.bg-light { background-color: var(--bg) !important; }
 .bg-white   { background-color: var(--surface) !important; }
 .text-muted { color: var(--muted) !important; }
 .card, .rounded-xl { background-color: var(--surface); color: var(--text); }
