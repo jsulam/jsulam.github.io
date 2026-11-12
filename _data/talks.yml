@@ -3,7 +3,8 @@
   location: "Buenos Aires, Argentina"
   date: "2026-11-12"
   links:
-    slides: "https://connect.posit.cloud/jsulam/content/01a1c749-eaa6-b185-1736-d8f7f1f4b798"
+    slides: "/assets/slides/primavera2026/es/"
+    slides_en: "/assets/slides/primavera2026/en/"
     event: "https://primavera-dl.github.io/"
   topics:
     - ML Trustworthiness

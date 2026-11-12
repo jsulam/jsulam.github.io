@@ -45,6 +45,12 @@ navbar_title: Talks
           {% assign links = links | append: slides_link %}
         {% endif %}
 
+        {% if L.slides_en and L.slides_en != "" %}
+          {% if links != "" %}{% assign links = links | append: ' · ' %}{% endif %}
+          {% assign slides_en_link = '<a class="mr-2" href="' | append: L.slides_en | append: '" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint"></i> English slides</a>' %}
+          {% assign links = links | append: slides_en_link %}
+        {% endif %}
+
         {% if L.video and L.video != "" %}
           {% if links != "" %}{% assign links = links | append: ' · ' %}{% endif %}
           {% assign video_link = '<a class="mr-2" href="' | append: L.video | append: '" target="_blank" rel="noopener"><i class="fas fa-video"></i> video</a>' %}
