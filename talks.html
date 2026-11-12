@@ -45,10 +45,17 @@ navbar_title: Talks
           {% assign links = links | append: slides_link %}
         {% endif %}
 
+        {%- comment -%} Per-language decks: slides_en, slides_es {%- endcomment -%}
         {% if L.slides_en and L.slides_en != "" %}
           {% if links != "" %}{% assign links = links | append: ' · ' %}{% endif %}
-          {% assign slides_en_link = '<a class="mr-2" href="' | append: L.slides_en | append: '" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint"></i> English slides</a>' %}
+          {% assign slides_en_link = '<a class="mr-2" href="' | append: L.slides_en | append: '" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint"></i> slides (English)</a>' %}
           {% assign links = links | append: slides_en_link %}
+        {% endif %}
+
+        {% if L.slides_es and L.slides_es != "" %}
+          {% if links != "" %}{% assign links = links | append: ' · ' %}{% endif %}
+          {% assign slides_es_link = '<a class="mr-2" href="' | append: L.slides_es | append: '" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint"></i> slides (Español)</a>' %}
+          {% assign links = links | append: slides_es_link %}
         {% endif %}
 
         {% if L.video and L.video != "" %}

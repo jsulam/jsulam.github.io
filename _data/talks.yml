@@ -3,8 +3,8 @@
   location: "Buenos Aires, Argentina"
   date: "2026-11-12"
   links:
-    slides: "/assets/slides/primavera2026/es/"
     slides_en: "/assets/slides/primavera2026/en/"
+    slides_es: "/assets/slides/primavera2026/es/"
     event: "https://primavera-dl.github.io/"
   topics:
     - ML Trustworthiness
