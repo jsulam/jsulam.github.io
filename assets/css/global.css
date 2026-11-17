@@ -320,3 +320,12 @@ html[data-theme="dark"] .badge[class*="topic-"] {
     margin-bottom: 1rem;
     color: var(--muted-strong);
   }
+/* News card: a thin timeline per year, one accent dot per item */
+.news-list { border-left: 2px solid var(--border); padding-left: 1rem; margin: .25rem 0 .25rem .25rem; }
+.news-item { position: relative; }
+.news-item::before {
+    content: ""; position: absolute;
+    left: calc(-1rem - 6px); top: calc(.75em - 5px);
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--surface); border: 2px solid var(--link);
+}
