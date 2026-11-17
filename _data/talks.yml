@@ -1,3 +1,15 @@
+- title: "Beyond Scores: Proximal Diffusion Models · Learned Proximal Operators: from Denoising to Sampling"
+  venue: "SIAM Conferences on Mathematics of Data Science (MDS26) and Imaging Science (IS26)"
+  location: "Salt Lake City, UT"
+  date: "2026-11-17"
+  links:
+    slides: "https://slides.com/jeremiassulam/siam2026/fullscreen"
+    event: "https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89420"
+  topics:
+    - Diffusion Models
+    - Inverse Problems
+    - Theory
+
 - title: "Predicción Conformal: Cómo construir predictores con incertidumbre"
   venue: "2da Escuela de Primavera en Deep Learning"
   location: "Buenos Aires, Argentina"
