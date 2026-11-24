@@ -329,3 +329,19 @@ html[data-theme="dark"] .badge[class*="topic-"] {
     width: 10px; height: 10px; border-radius: 50%;
     background: var(--surface); border: 2px solid var(--link);
 }
+
+/* Talks page: topic filter bar */
+.talk-filter { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: .5rem 0 1.25rem; }
+.talk-filter .badge {
+    cursor: pointer; font-size: .8rem; padding: .4em .75em; border-radius: 999px;
+    transition: opacity .15s ease, box-shadow .15s ease;
+}
+.talk-filter .talk-filter-all { background: var(--surface); color: var(--text); font-weight: 500; }
+.talk-filter .badge:focus { outline: none; }
+.talk-filter .badge:focus-visible { box-shadow: 0 0 0 2px var(--link); }
+.talk-filter.filtering .badge:not(.active) { opacity: .45; }
+.talk-filter.filtering .badge:not(.active):hover { opacity: .8; }
+.talk-filter .badge.active { box-shadow: 0 0 0 2px var(--t, var(--text)); opacity: 1; }
+.talk-filter-count { margin-left: .25rem; }
+.talk-topics .talk-topic-link { cursor: pointer; }
+.talk-card[hidden], .talk-year-group[hidden] { display: none !important; }

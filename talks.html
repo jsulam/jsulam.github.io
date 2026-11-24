@@ -11,11 +11,40 @@ navbar_title: Talks
 {% assign talks_sorted = site.data.talks | sort: "date" %}
 {% assign groups = talks_sorted | group_by_exp: "t", "t.date | date: '%Y'" | sort: "name" | reverse %}
 
+{%- comment -%} Every topic used by any talk, for the filter bar {%- endcomment -%}
+{%- assign all_topics = "" | split: "" -%}
+{%- for t in site.data.talks -%}
+  {%- assign topics = t.topics -%}
+  {%- unless topics.first -%}{% assign topics = t.topics | split: ',' %}{%- endunless -%}
+  {%- for topic in topics -%}
+    {%- assign t_label = topic | strip -%}
+    {%- assign all_topics = all_topics | push: t_label -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- assign all_topics = all_topics | uniq | sort_natural -%}
+
+<div class="talk-filter" role="group" aria-label="Filter talks by topic">
+  <button type="button" class="badge talk-filter-all active" data-topic="">All</button>
+  {%- for t_label in all_topics -%}
+    {%- assign t_class = t_label | downcase | replace: ' ', '-' %}
+  <button type="button" class="badge topic-{{ t_class }}" data-topic="{{ t_class }}">{{ t_label }}</button>
+  {%- endfor %}
+  <span class="talk-filter-count small text-muted"></span>
+</div>
+
 {% for g in groups %}
+  <div class="talk-year-group">
   <h5 class="talks-year">{{ g.name }}</h5>
   {% assign items = g.items | sort: "date" | reverse %}
   {% for t in items %}
-    <div class="talk-card">
+    {%- assign topics = t.topics -%}
+    {%- unless topics.first -%}{% assign topics = t.topics | split: ',' %}{%- endunless -%}
+    {%- assign t_classes = "" -%}
+    {%- for topic in topics -%}
+      {%- assign t_class = topic | strip | downcase | replace: ' ', '-' -%}
+      {%- assign t_classes = t_classes | append: t_class | append: " " -%}
+    {%- endfor %}
+    <div class="talk-card" data-topics="{{ t_classes | strip }}">
       <div class="talk-title">{{ t.title }}</div>
       <div class="talk-meta">
         {% if t.venue %}<em>{{ t.venue }}</em>{% endif %}
@@ -84,4 +113,60 @@ navbar_title: Talks
       {% endif %}
     </div>
   {% endfor %}
+  </div>
 {% endfor %}
+
+<script>
+(function () {
+  var bar = document.querySelector('.talk-filter');
+  if (!bar) return;
+  var chips = bar.querySelectorAll('[data-topic]');
+  var cards = document.querySelectorAll('.talk-card');
+  var groups = document.querySelectorAll('.talk-year-group');
+  var count = bar.querySelector('.talk-filter-count');
+
+  function apply(topic) {
+    var shown = 0;
+    cards.forEach(function (c) {
+      var match = !topic || (' ' + c.dataset.topics + ' ').indexOf(' ' + topic + ' ') >= 0;
+      c.hidden = !match;
+      if (match) shown++;
+    });
+    groups.forEach(function (g) { g.hidden = !g.querySelector('.talk-card:not([hidden])'); });
+    chips.forEach(function (b) {
+      var on = b.dataset.topic === (topic || '');
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', on);
+    });
+    bar.classList.toggle('filtering', !!topic);
+    count.textContent = topic ? shown + ' of ' + cards.length + ' talks' : '';
+    history.replaceState(null, '', topic ? '#topic=' + topic : location.pathname + location.search);
+  }
+
+  bar.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-topic]');
+    if (!b) return;
+    // clicking the active topic again clears the filter
+    apply(b.classList.contains('active') ? '' : b.dataset.topic);
+  });
+
+  // topic badges on each talk filter too
+  document.querySelectorAll('.talk-topics .badge').forEach(function (badge) {
+    var m = badge.className.match(/topic-([\w-]+)/);
+    if (!m) return;
+    badge.classList.add('talk-topic-link');
+    badge.title = 'Show talks on ' + badge.textContent.trim();
+    badge.addEventListener('click', function () {
+      apply(m[1]);
+      bar.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  });
+
+  function fromHash() {
+    var h = location.hash.match(/^#topic=([\w-]+)$/);
+    apply(h ? h[1] : '');
+  }
+  window.addEventListener('hashchange', fromHash);
+  fromHash();
+})();
+</script>
